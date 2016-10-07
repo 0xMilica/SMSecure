@@ -1,4 +1,4 @@
-#Fri Oct 07 01:48:59 CEST 2016
+#Fri Oct 07 02:52:49 CEST 2016
 base.0=C\:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_0cbb54bde792971769666dc078f87014baad2c07
 renamed.1=classes.dex
 renamed.0=classes2.dex

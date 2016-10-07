@@ -145,6 +145,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\libs\google-http-client-1.20.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="93d82db2bca534960253f43424b2ba9d7638b4d2">
+        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\2\google-http-client-1.20.0_2c1434e4eb8107440ca732a5997c0bd7dcfb2964\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\exploded-aar\com.android.support\design\22.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -256,15 +265,6 @@
         <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\2\jackson-core-2.1.3_ca6d0d126b1b7d72e20dbfb35466bb79df8fdb3e\classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\dell\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client\1.20.0\93d82db2bca534960253f43424b2ba9d7638b4d2\google-http-client-1.20.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="93d82db2bca534960253f43424b2ba9d7638b4d2">
-        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-http-client-1.20.0_d9466a628bbad57f9f3ac15eb147e79400c64749\classes.dex" />
-    </item>
-    <item
         jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -295,7 +295,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="82fde21192beb24a529da57dc31a637c6055b20a">
+        sha1="60123a91ec80e89600c2fba0beaf5ac699b7e525">
         <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b2e60de748b5800b457ea2bd11ef0ee1a3406c7e\classes.dex" />
     </item>
     <item
@@ -347,7 +347,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="af5c19bc590dc16a6e85056a845614a24bf0dbd4">
+        sha1="603332ad049cf3654b7815d19c3b2c52846c7671">
         <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_0cbb54bde792971769666dc078f87014baad2c07\classes.dex" />
     </item>
     <item

@@ -8,12 +8,12 @@
         "source": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\layout\\layout_snackbar.xml"
     },
     {
-        "merged": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_select_dialog_material.xml"
-    },
-    {
         "merged": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
         "source": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
         "merged": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",

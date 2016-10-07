@@ -61,7 +61,7 @@ import com.pma.smsecure.Service.SyncService;
 import com.pma.smsecure.Tabs.SlidingTabLayout;
 import com.pma.smsecure.Tabs.ViewPagerAdapter;
 
-public class MainActivity extends AppCompatActivity implements ICommunicator{
+public class MainActivity extends Activity implements ICommunicator{
 
 	private static final String TAG = "main aktivnost";
 	private MainListViewAdapter listViewAdapter;
@@ -155,30 +155,7 @@ public class MainActivity extends AppCompatActivity implements ICommunicator{
 		super.onCreate(savedInstanceState);
 		Log.d(TAG, "onCreate");
 
-		/************************Tabovi**********************/
 
-
-		// Creating The ViewPagerAdapter and Passing Fragment Manager, Titles fot the Tabs and Number Of Tabs.
-		adapter =  new ViewPagerAdapter(getSupportFragmentManager(),Titles,Numboftabs);
-
-		// Assigning ViewPager View and setting the adapter
-		pager = (ViewPager) findViewById(R.id.pager);
-		pager.setAdapter(adapter);
-
-		// Assiging the Sliding Tab Layout View
-		tabs = (SlidingTabLayout) findViewById(R.id.tabs);
-		tabs.setDistributeEvenly(true); // To make the Tabs Fixed set this true, This makes the tabs Space Evenly in Available width
-
-		// Setting Custom Color for the Scroll bar indicator of the Tab View
-		tabs.setCustomTabColorizer(new SlidingTabLayout.TabColorizer() {
-			@Override
-			public int getIndicatorColor(int position) {
-				return getResources().getColor(R.color.colorPrimary);
-			}
-		});
-
-		// Setting the ViewPager For the SlidingTabsLayout
-		tabs.setViewPager(pager);
 
 		/************************Tema************************/
 		UtilProperties.onActivityCreateSetTheme(this);
