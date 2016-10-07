@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewDateOfLastMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtViewLastMessage"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        />
+
+    <TextView
+		android:lines="2"
+    	android:scrollHorizontally="true"
+    	android:ellipsize="end"
+        android:id="@+id/txtViewLastMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignLeft="@+id/txtViewUserInfo"
+        android:layout_alignStart="@+id/txtViewUserInfo"
+        android:layout_below="@+id/txtViewUserInfo"
+        android:layout_toLeftOf="@+id/textViewDateOfLastMessage"
+        android:text="@string/txtViewlastMessage"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        />
+
+    <TextView
+        android:id="@+id/txtViewUserInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_toEndOf="@+id/imageView1"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="@string/txtViewUserInfo"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+
+    <TextView
+        android:id="@+id/textViewNumberOfMessages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtViewLastMessage"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="18dp"
+        android:text="@string/textViewNumberOfMessages"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/user" />
+
+    <TextView
+        android:id="@+id/textViewNumNewMesages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtViewLastMessage"
+        android:layout_toRightOf="@+id/txtViewUserInfo"
+        android:text=""
+        android:textColor="@color/orange"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <!-- Search / will display always -->
+    <item android:id="@+id/action_search"
+          android:title="@string/action_search"
+          android:showAsAction="ifRoom"
+          android:actionViewClass="android.widget.SearchView"/>
+    
+    <!-- Refresh - Sync -->
+    <item android:id="@+id/action_refresh"
+          android:icon="@drawable/ic_action_refresh"
+          android:title="@string/action_refresh"
+          android:showAsAction="ifRoom" />
+    
+    <item android:id="@+id/action_mykey"
+          android:title="@string/action_mykey"
+          android:icon="@drawable/ic_menu_login"
+          android:showAsAction="ifRoom" />
+    
+     <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    
+</menu>

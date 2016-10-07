@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pma.smsecure.Activity.ConversationActivity" >
+
+    <ListView
+        android:id="@+id/listSMSs"
+        
+        android:stackFromBottom="true"
+		android:transcriptMode="normal"
+    
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTxtSMS"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:divider="@null"
+        android:dividerHeight="9.0sp" >
+    </ListView>
+
+    <EditText
+        android:id="@+id/editTxtSMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/imgSendSMS"
+        android:ems="10"
+        android:hint="Type unsecured message"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
+
+    <ImageView
+        android:id="@+id/imgSendSMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/listSMSs"
+        android:background="@drawable/plane_red"
+        android:onClick="sendSMS" />
+
+</RelativeLayout>

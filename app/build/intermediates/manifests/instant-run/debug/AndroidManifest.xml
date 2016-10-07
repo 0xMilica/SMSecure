@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pma.smsecure"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="22"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:theme="@style/Pink" >
+        <meta-data
+            android:name="android.app.default_searchable"
+            android:value=".Activity.MainActivity" />
+
+        <activity
+            android:name="com.pma.smsecure.Activity.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.pma.smsecure.Activity.SplashScreen"
+            android:label="@string/app_name" >
+            android:theme="@android:style/Theme.Material.NoActionBar"
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pma.smsecure.Activity.ConversationActivity"
+            android:label="@string/title_activity_conversation"
+            android:parentActivityName="com.pma.smsecure.Activity.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.pma.smsecure.Activity.MainActivity" />
+            <!--
+ ATTENTION: This intent was auto-generated. Follow instructions at
+  https://g.co/AppIndexing/AndroidStudio to publish your URLs.
+            -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!--
+                  ATTENTION: This data URL was auto-generated. We recommend that you use the HTTP scheme.
+                  TODO: Change the host or pathPrefix as necessary.
+                -->
+                <data
+                    android:host="smsecure.pma.com"
+                    android:pathPrefix="/conversation"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pma.smsecure.Activity.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name="com.pma.smsecure.Activity.ComposeActivity"
+            android:label="@string/title_activity_compose"
+            android:parentActivityName="com.pma.smsecure.Activity.MainActivity"
+            android:windowSoftInputMode="adjustResize" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.pma.smsecure.Activity.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.pma.smsecure.Activity.SearchResultsActivity"
+            android:label="@string/title_activity_search_results"
+            android:parentActivityName="com.pma.smsecure.Activity.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name="com.pma.smsecure.Activity.ActivitySettings"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.pma.smsecure.Activity.ShowSettingsActivity"
+            android:label="@string/title_activity_show_settings" >
+        </activity>
+
+        <receiver android:name="com.pma.smsecure.Receiver.SMSReceiver" >
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.pma.smsecure.Receiver.SMSReceiver2"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter android:priority="10" >
+                <action android:name="android.intent.action.DATA_SMS_RECEIVED" />
+
+                <data
+                    android:host="*"
+                    android:port="6734"
+                    android:scheme="sms" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.pma.smsecure.Service.SMSService" >
+        </service>
+        <service android:name="com.pma.smsecure.Service.SyncService" >
+        </service>
+
+        <activity
+            android:name="com.pma.smsecure.Activity.PublicKeyInfoActivity"
+            android:label="@string/title_activity_public_key_info"
+            android:parentActivityName="com.pma.smsecure.Activity.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.pma.smsecure.Activity.MainActivity" />
+        </activity>
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

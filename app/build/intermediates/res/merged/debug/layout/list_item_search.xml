@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtNameAndNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:text="Pera Peric  [ 0645771768 ]"
+        android:ellipsize="end"
+        android:lines="1"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/txtSnippet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtNameAndNumber"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtNameAndNumber"
+        android:layout_marginTop="14dp"
+        android:ellipsize="end"
+        android:lines="1"
+        android:text="Esi mi dobar1; Esi mi dobar2; Esi mi dobar3; Esi mi dobar4; Esi mi dobar5"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

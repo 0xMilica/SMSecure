@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#23a1ff"
+    tools:context="com.pma.smsecure.Activity.SplashScreen"
+    >
+
+    <TextView
+        android:id="@+id/txtAppInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:text="" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/sms_logo" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/passwordEditText"
+        android:layout_alignRight="@+id/passwordEditText"
+        android:layout_below="@+id/passwordEditText"
+        android:layout_marginTop="18dp"
+        android:text="New Password"
+        android:onClick="btnLoginFunction"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/txtErrorLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/passwordEditText"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FF3300"
+        android:layout_marginBottom="29dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pma.smsecure.Activity.PublicKeyInfoActivity" >
+
+    <TextView
+        android:id="@+id/textViewContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="@string/contact_name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btnSavePKey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="importNewPublicKey"
+            android:text="@string/save_key" />
+
+        <Button
+            android:id="@+id/btnSharePKey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="exportPublicKey"
+            android:text="@string/button_share_key" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/txtPublicKey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtCurrentKey"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:maxLines="12"
+        android:minLines="1"
+        android:text="@string/public_key"
+        android:textSize="@dimen/dim_public_key" />
+
+    <TextView
+        android:id="@+id/txtCurrentKey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewContact"
+        android:layout_marginTop="14dp"
+        android:text="@string/txtCurrentKey"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

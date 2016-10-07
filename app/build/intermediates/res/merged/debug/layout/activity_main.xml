@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pma.smsecure.Activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+
+
+        <com.pma.smsecure.Tabs.SlidingTabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="2dp"
+            android:background="@color/blue"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            ></android.support.v4.view.ViewPager>
+
+        <TextView
+            android:id="@+id/tvorig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtViewMessaging"
+            android:textSize="@dimen/activity_horizontal_margin" />
+
+        <ListView
+            android:divider="@android:color/transparent"
+  			android:dividerHeight="5.0sp"
+            android:id="@+id/listMainView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </ListView>
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+
+        android:id="@+id/btnNewMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_mode_edit_black_24dp"
+
+
+        android:onClick="createNewMessage"
+        app:backgroundTint="@color/abc_background_cache_hint_selector_material_dark"
+        app:rippleColor="@color/abc_background_cache_hint_selector_material_dark"
+        />
+
+</RelativeLayout>

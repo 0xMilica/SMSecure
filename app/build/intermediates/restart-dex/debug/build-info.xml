@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    api-level="22"
+    density="420dpi"
+    format="8"
+    plugin-version="2.2.0"
+    timestamp="40107753984665"
+    token="-8925524244929862384"
+    verifier="COLD_SWAP_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <build
+        timestamp="38844797717591"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="39420795028126"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="40054045951165"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
+    </build>
+    <build
+        timestamp="40107753984665"
+        verifier="COLD_SWAP_REQUESTED" />
+
+</instant-run>

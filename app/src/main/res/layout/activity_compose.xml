@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pma.smsecure.Activity.ComposeActivity" >
+
+    <EditText
+        android:id="@+id/textSelectContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/imgSendSMSC"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <ImageButton
+        android:id="@+id/imageButton1C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_person_add_white_24dp"
+        android:onClick="open_phonebook"
+         />
+
+    <EditText
+        android:id="@+id/editTxtSMSC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/imageButton1C"
+        android:hint="Type unsecured message"
+        android:inputType="textMultiLine" />
+
+    <ImageView
+        android:id="@+id/imgSendSMSC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/editTxtSMSC"
+        android:background="@drawable/plane_red"
+        android:onClick="sendSMS" />
+
+</RelativeLayout>
