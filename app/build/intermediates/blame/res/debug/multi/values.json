@@ -8956,7 +8956,7 @@
                     "startOffset": 110988,
                     "endLine": 1596,
                     "endColumn": 9,
-                    "endOffset": 111184
+                    "endOffset": 111171
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\src\\main\\res\\values\\styles.xml",
@@ -8966,7 +8966,7 @@
                         "startOffset": 908,
                         "endLine": 33,
                         "endColumn": 9,
-                        "endOffset": 1109
+                        "endOffset": 1096
                     }
                 }
             },
@@ -8974,10 +8974,10 @@
                 "to": {
                     "startLine": 1597,
                     "startColumn": 4,
-                    "startOffset": 111189,
+                    "startOffset": 111176,
                     "endLine": 1634,
                     "endColumn": 12,
-                    "endOffset": 114073
+                    "endOffset": 114060
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -8995,10 +8995,10 @@
                 "to": {
                     "startLine": 1635,
                     "startColumn": 4,
-                    "startOffset": 114078,
+                    "startOffset": 114065,
                     "endLine": 1673,
                     "endColumn": 12,
-                    "endOffset": 117103
+                    "endOffset": 117090
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9016,10 +9016,10 @@
                 "to": {
                     "startLine": 1674,
                     "startColumn": 4,
-                    "startOffset": 117108,
+                    "startOffset": 117095,
                     "endLine": 1683,
                     "endColumn": 12,
-                    "endOffset": 117743
+                    "endOffset": 117730
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9037,10 +9037,10 @@
                 "to": {
                     "startLine": 1684,
                     "startColumn": 4,
-                    "startOffset": 117748,
+                    "startOffset": 117735,
                     "endLine": 1692,
                     "endColumn": 12,
-                    "endOffset": 118367
+                    "endOffset": 118354
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9058,10 +9058,10 @@
                 "to": {
                     "startLine": 1693,
                     "startColumn": 4,
-                    "startOffset": 118372,
+                    "startOffset": 118359,
                     "endLine": 1694,
                     "endColumn": 12,
-                    "endOffset": 118480
+                    "endOffset": 118467
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9079,10 +9079,10 @@
                 "to": {
                     "startLine": 1695,
                     "startColumn": 4,
-                    "startOffset": 118485,
+                    "startOffset": 118472,
                     "endLine": 1698,
                     "endColumn": 12,
-                    "endOffset": 118709
+                    "endOffset": 118696
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9100,10 +9100,10 @@
                 "to": {
                     "startLine": 1699,
                     "startColumn": 4,
-                    "startOffset": 118714,
+                    "startOffset": 118701,
                     "endLine": 1702,
                     "endColumn": 12,
-                    "endOffset": 119047
+                    "endOffset": 119034
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9121,10 +9121,10 @@
                 "to": {
                     "startLine": 1703,
                     "startColumn": 4,
-                    "startOffset": 119052,
+                    "startOffset": 119039,
                     "endLine": 1705,
                     "endColumn": 12,
-                    "endOffset": 119207
+                    "endOffset": 119194
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9142,10 +9142,10 @@
                 "to": {
                     "startLine": 1706,
                     "startColumn": 4,
-                    "startOffset": 119212,
+                    "startOffset": 119199,
                     "endLine": 1708,
                     "endColumn": 12,
-                    "endOffset": 119359
+                    "endOffset": 119346
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9163,10 +9163,10 @@
                 "to": {
                     "startLine": 1709,
                     "startColumn": 4,
-                    "startOffset": 119364,
+                    "startOffset": 119351,
                     "endLine": 1711,
                     "endColumn": 12,
-                    "endOffset": 119530
+                    "endOffset": 119517
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9184,10 +9184,10 @@
                 "to": {
                     "startLine": 1712,
                     "startColumn": 4,
-                    "startOffset": 119535,
+                    "startOffset": 119522,
                     "endLine": 1714,
                     "endColumn": 12,
-                    "endOffset": 119697
+                    "endOffset": 119684
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9205,10 +9205,10 @@
                 "to": {
                     "startLine": 1715,
                     "startColumn": 4,
-                    "startOffset": 119702,
+                    "startOffset": 119689,
                     "endLine": 1718,
                     "endColumn": 12,
-                    "endOffset": 119940
+                    "endOffset": 119927
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9226,10 +9226,10 @@
                 "to": {
                     "startLine": 1719,
                     "startColumn": 4,
-                    "startOffset": 119945,
+                    "startOffset": 119932,
                     "endLine": 1721,
                     "endColumn": 12,
-                    "endOffset": 120110
+                    "endOffset": 120097
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9247,10 +9247,10 @@
                 "to": {
                     "startLine": 1722,
                     "startColumn": 4,
-                    "startOffset": 120115,
+                    "startOffset": 120102,
                     "endLine": 1724,
                     "endColumn": 12,
-                    "endOffset": 120283
+                    "endOffset": 120270
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9268,10 +9268,10 @@
                 "to": {
                     "startLine": 1725,
                     "startColumn": 4,
-                    "startOffset": 120288,
+                    "startOffset": 120275,
                     "endLine": 1727,
                     "endColumn": 12,
-                    "endOffset": 120454
+                    "endOffset": 120441
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9289,10 +9289,10 @@
                 "to": {
                     "startLine": 1728,
                     "startColumn": 4,
-                    "startOffset": 120459,
+                    "startOffset": 120446,
                     "endLine": 1731,
                     "endColumn": 12,
-                    "endOffset": 120728
+                    "endOffset": 120715
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9310,10 +9310,10 @@
                 "to": {
                     "startLine": 1732,
                     "startColumn": 4,
-                    "startOffset": 120733,
+                    "startOffset": 120720,
                     "endLine": 1734,
                     "endColumn": 12,
-                    "endOffset": 120927
+                    "endOffset": 120914
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9331,10 +9331,10 @@
                 "to": {
                     "startLine": 1735,
                     "startColumn": 4,
-                    "startOffset": 120932,
+                    "startOffset": 120919,
                     "endLine": 1737,
                     "endColumn": 12,
-                    "endOffset": 121174
+                    "endOffset": 121161
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9352,9 +9352,9 @@
                 "to": {
                     "startLine": 1738,
                     "startColumn": 4,
-                    "startOffset": 121179,
+                    "startOffset": 121166,
                     "endColumn": 83,
-                    "endOffset": 121258
+                    "endOffset": 121245
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9371,9 +9371,9 @@
                 "to": {
                     "startLine": 1739,
                     "startColumn": 4,
-                    "startOffset": 121263,
+                    "startOffset": 121250,
                     "endColumn": 95,
-                    "endOffset": 121354
+                    "endOffset": 121341
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9390,9 +9390,9 @@
                 "to": {
                     "startLine": 1740,
                     "startColumn": 4,
-                    "startOffset": 121359,
+                    "startOffset": 121346,
                     "endColumn": 95,
-                    "endOffset": 121450
+                    "endOffset": 121437
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9409,9 +9409,9 @@
                 "to": {
                     "startLine": 1741,
                     "startColumn": 4,
-                    "startOffset": 121455,
+                    "startOffset": 121442,
                     "endColumn": 97,
-                    "endOffset": 121548
+                    "endOffset": 121535
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9428,9 +9428,9 @@
                 "to": {
                     "startLine": 1742,
                     "startColumn": 4,
-                    "startOffset": 121553,
+                    "startOffset": 121540,
                     "endColumn": 99,
-                    "endOffset": 121648
+                    "endOffset": 121635
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9447,9 +9447,9 @@
                 "to": {
                     "startLine": 1743,
                     "startColumn": 4,
-                    "startOffset": 121653,
+                    "startOffset": 121640,
                     "endColumn": 101,
-                    "endOffset": 121750
+                    "endOffset": 121737
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9466,9 +9466,9 @@
                 "to": {
                     "startLine": 1744,
                     "startColumn": 4,
-                    "startOffset": 121755,
+                    "startOffset": 121742,
                     "endColumn": 101,
-                    "endOffset": 121852
+                    "endOffset": 121839
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9485,9 +9485,9 @@
                 "to": {
                     "startLine": 1745,
                     "startColumn": 4,
-                    "startOffset": 121857,
+                    "startOffset": 121844,
                     "endColumn": 101,
-                    "endOffset": 121954
+                    "endOffset": 121941
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9504,9 +9504,9 @@
                 "to": {
                     "startLine": 1746,
                     "startColumn": 4,
-                    "startOffset": 121959,
+                    "startOffset": 121946,
                     "endColumn": 101,
-                    "endOffset": 122056
+                    "endOffset": 122043
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9523,9 +9523,9 @@
                 "to": {
                     "startLine": 1747,
                     "startColumn": 4,
-                    "startOffset": 122061,
+                    "startOffset": 122048,
                     "endColumn": 101,
-                    "endOffset": 122158
+                    "endOffset": 122145
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9542,9 +9542,9 @@
                 "to": {
                     "startLine": 1748,
                     "startColumn": 4,
-                    "startOffset": 122163,
+                    "startOffset": 122150,
                     "endColumn": 99,
-                    "endOffset": 122258
+                    "endOffset": 122245
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9561,9 +9561,9 @@
                 "to": {
                     "startLine": 1749,
                     "startColumn": 4,
-                    "startOffset": 122263,
+                    "startOffset": 122250,
                     "endColumn": 95,
-                    "endOffset": 122354
+                    "endOffset": 122341
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9580,9 +9580,9 @@
                 "to": {
                     "startLine": 1750,
                     "startColumn": 4,
-                    "startOffset": 122359,
+                    "startOffset": 122346,
                     "endColumn": 111,
-                    "endOffset": 122466
+                    "endOffset": 122453
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9599,9 +9599,9 @@
                 "to": {
                     "startLine": 1751,
                     "startColumn": 4,
-                    "startOffset": 122471,
+                    "startOffset": 122458,
                     "endColumn": 128,
-                    "endOffset": 122595
+                    "endOffset": 122582
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9618,9 +9618,9 @@
                 "to": {
                     "startLine": 1752,
                     "startColumn": 4,
-                    "startOffset": 122600,
+                    "startOffset": 122587,
                     "endColumn": 122,
-                    "endOffset": 122718
+                    "endOffset": 122705
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9637,10 +9637,10 @@
                 "to": {
                     "startLine": 1753,
                     "startColumn": 4,
-                    "startOffset": 122723,
+                    "startOffset": 122710,
                     "endLine": 1754,
                     "endColumn": 12,
-                    "endOffset": 122872
+                    "endOffset": 122859
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9658,10 +9658,10 @@
                 "to": {
                     "startLine": 1755,
                     "startColumn": 4,
-                    "startOffset": 122877,
+                    "startOffset": 122864,
                     "endLine": 1756,
                     "endColumn": 12,
-                    "endOffset": 123026
+                    "endOffset": 123013
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9679,9 +9679,9 @@
                 "to": {
                     "startLine": 1757,
                     "startColumn": 4,
-                    "startOffset": 123031,
+                    "startOffset": 123018,
                     "endColumn": 97,
-                    "endOffset": 123124
+                    "endOffset": 123111
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9698,9 +9698,9 @@
                 "to": {
                     "startLine": 1758,
                     "startColumn": 4,
-                    "startOffset": 123129,
+                    "startOffset": 123116,
                     "endColumn": 113,
-                    "endOffset": 123238
+                    "endOffset": 123225
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9717,9 +9717,9 @@
                 "to": {
                     "startLine": 1759,
                     "startColumn": 4,
-                    "startOffset": 123243,
+                    "startOffset": 123230,
                     "endColumn": 93,
-                    "endOffset": 123332
+                    "endOffset": 123319
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9736,10 +9736,10 @@
                 "to": {
                     "startLine": 1760,
                     "startColumn": 4,
-                    "startOffset": 123337,
+                    "startOffset": 123324,
                     "endLine": 1761,
                     "endColumn": 12,
-                    "endOffset": 123472
+                    "endOffset": 123459
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9757,10 +9757,10 @@
                 "to": {
                     "startLine": 1762,
                     "startColumn": 4,
-                    "startOffset": 123477,
+                    "startOffset": 123464,
                     "endLine": 1763,
                     "endColumn": 12,
-                    "endOffset": 123606
+                    "endOffset": 123593
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9778,9 +9778,9 @@
                 "to": {
                     "startLine": 1764,
                     "startColumn": 4,
-                    "startOffset": 123611,
+                    "startOffset": 123598,
                     "endColumn": 95,
-                    "endOffset": 123702
+                    "endOffset": 123689
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9797,9 +9797,9 @@
                 "to": {
                     "startLine": 1765,
                     "startColumn": 4,
-                    "startOffset": 123707,
+                    "startOffset": 123694,
                     "endColumn": 111,
-                    "endOffset": 123814
+                    "endOffset": 123801
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9816,9 +9816,9 @@
                 "to": {
                     "startLine": 1766,
                     "startColumn": 4,
-                    "startOffset": 123819,
+                    "startOffset": 123806,
                     "endColumn": 99,
-                    "endOffset": 123914
+                    "endOffset": 123901
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9835,9 +9835,9 @@
                 "to": {
                     "startLine": 1767,
                     "startColumn": 4,
-                    "startOffset": 123919,
+                    "startOffset": 123906,
                     "endColumn": 115,
-                    "endOffset": 124030
+                    "endOffset": 124017
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9854,9 +9854,9 @@
                 "to": {
                     "startLine": 1768,
                     "startColumn": 4,
-                    "startOffset": 124035,
+                    "startOffset": 124022,
                     "endColumn": 95,
-                    "endOffset": 124126
+                    "endOffset": 124113
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9873,9 +9873,9 @@
                 "to": {
                     "startLine": 1769,
                     "startColumn": 4,
-                    "startOffset": 124131,
+                    "startOffset": 124118,
                     "endColumn": 111,
-                    "endOffset": 124238
+                    "endOffset": 124225
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9892,10 +9892,10 @@
                 "to": {
                     "startLine": 1770,
                     "startColumn": 4,
-                    "startOffset": 124243,
+                    "startOffset": 124230,
                     "endLine": 1771,
                     "endColumn": 12,
-                    "endOffset": 124378
+                    "endOffset": 124365
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9913,10 +9913,10 @@
                 "to": {
                     "startLine": 1772,
                     "startColumn": 4,
-                    "startOffset": 124383,
+                    "startOffset": 124370,
                     "endLine": 1773,
                     "endColumn": 12,
-                    "endOffset": 124526
+                    "endOffset": 124513
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9934,10 +9934,10 @@
                 "to": {
                     "startLine": 1774,
                     "startColumn": 4,
-                    "startOffset": 124531,
+                    "startOffset": 124518,
                     "endLine": 1775,
                     "endColumn": 12,
-                    "endOffset": 124690
+                    "endOffset": 124677
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9955,10 +9955,10 @@
                 "to": {
                     "startLine": 1776,
                     "startColumn": 4,
-                    "startOffset": 124695,
+                    "startOffset": 124682,
                     "endLine": 1777,
                     "endColumn": 12,
-                    "endOffset": 124832
+                    "endOffset": 124819
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9976,10 +9976,10 @@
                 "to": {
                     "startLine": 1778,
                     "startColumn": 4,
-                    "startOffset": 124837,
+                    "startOffset": 124824,
                     "endLine": 1779,
                     "endColumn": 12,
-                    "endOffset": 124990
+                    "endOffset": 124977
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -9997,10 +9997,10 @@
                 "to": {
                     "startLine": 1780,
                     "startColumn": 4,
-                    "startOffset": 124995,
+                    "startOffset": 124982,
                     "endLine": 1781,
                     "endColumn": 12,
-                    "endOffset": 125140
+                    "endOffset": 125127
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10018,9 +10018,9 @@
                 "to": {
                     "startLine": 1782,
                     "startColumn": 4,
-                    "startOffset": 125145,
+                    "startOffset": 125132,
                     "endColumn": 140,
-                    "endOffset": 125281
+                    "endOffset": 125268
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10037,10 +10037,10 @@
                 "to": {
                     "startLine": 1783,
                     "startColumn": 4,
-                    "startOffset": 125286,
+                    "startOffset": 125273,
                     "endLine": 1784,
                     "endColumn": 12,
-                    "endOffset": 125425
+                    "endOffset": 125412
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10058,9 +10058,9 @@
                 "to": {
                     "startLine": 1785,
                     "startColumn": 4,
-                    "startOffset": 125430,
+                    "startOffset": 125417,
                     "endColumn": 134,
-                    "endOffset": 125560
+                    "endOffset": 125547
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10077,10 +10077,10 @@
                 "to": {
                     "startLine": 1786,
                     "startColumn": 4,
-                    "startOffset": 125565,
+                    "startOffset": 125552,
                     "endLine": 1787,
                     "endColumn": 12,
-                    "endOffset": 125696
+                    "endOffset": 125683
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10098,10 +10098,10 @@
                 "to": {
                     "startLine": 1788,
                     "startColumn": 4,
-                    "startOffset": 125701,
+                    "startOffset": 125688,
                     "endLine": 1789,
                     "endColumn": 12,
-                    "endOffset": 125838
+                    "endOffset": 125825
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10119,10 +10119,10 @@
                 "to": {
                     "startLine": 1790,
                     "startColumn": 4,
-                    "startOffset": 125843,
+                    "startOffset": 125830,
                     "endLine": 1791,
                     "endColumn": 12,
-                    "endOffset": 125980
+                    "endOffset": 125967
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10140,9 +10140,9 @@
                 "to": {
                     "startLine": 1792,
                     "startColumn": 4,
-                    "startOffset": 125985,
+                    "startOffset": 125972,
                     "endColumn": 111,
-                    "endOffset": 126092
+                    "endOffset": 126079
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10159,9 +10159,9 @@
                 "to": {
                     "startLine": 1793,
                     "startColumn": 4,
-                    "startOffset": 126097,
+                    "startOffset": 126084,
                     "endColumn": 139,
-                    "endOffset": 126232
+                    "endOffset": 126219
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10178,10 +10178,10 @@
                 "to": {
                     "startLine": 1794,
                     "startColumn": 4,
-                    "startOffset": 126237,
+                    "startOffset": 126224,
                     "endLine": 1796,
                     "endColumn": 12,
-                    "endOffset": 126399
+                    "endOffset": 126386
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\values\\values.xml",
@@ -10199,10 +10199,10 @@
                 "to": {
                     "startLine": 1797,
                     "startColumn": 4,
-                    "startOffset": 126404,
+                    "startOffset": 126391,
                     "endLine": 1799,
                     "endColumn": 12,
-                    "endOffset": 126574
+                    "endOffset": 126561
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\values\\values.xml",
@@ -10220,10 +10220,10 @@
                 "to": {
                     "startLine": 1800,
                     "startColumn": 4,
-                    "startOffset": 126579,
+                    "startOffset": 126566,
                     "endLine": 1802,
                     "endColumn": 12,
-                    "endOffset": 126744
+                    "endOffset": 126731
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\values\\values.xml",
@@ -10241,10 +10241,10 @@
                 "to": {
                     "startLine": 1803,
                     "startColumn": 4,
-                    "startOffset": 126749,
+                    "startOffset": 126736,
                     "endLine": 1806,
                     "endColumn": 12,
-                    "endOffset": 126990
+                    "endOffset": 126977
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\values\\values.xml",
@@ -10262,10 +10262,10 @@
                 "to": {
                     "startLine": 1807,
                     "startColumn": 4,
-                    "startOffset": 126995,
+                    "startOffset": 126982,
                     "endLine": 1811,
                     "endColumn": 12,
-                    "endOffset": 127258
+                    "endOffset": 127245
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\values\\values.xml",
@@ -10283,9 +10283,9 @@
                 "to": {
                     "startLine": 1812,
                     "startColumn": 4,
-                    "startOffset": 127263,
+                    "startOffset": 127250,
                     "endColumn": 67,
-                    "endOffset": 127326
+                    "endOffset": 127313
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10302,9 +10302,9 @@
                 "to": {
                     "startLine": 1813,
                     "startColumn": 4,
-                    "startOffset": 127331,
+                    "startOffset": 127318,
                     "endColumn": 72,
-                    "endOffset": 127399
+                    "endOffset": 127386
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10321,9 +10321,9 @@
                 "to": {
                     "startLine": 1814,
                     "startColumn": 4,
-                    "startOffset": 127404,
+                    "startOffset": 127391,
                     "endColumn": 73,
-                    "endOffset": 127473
+                    "endOffset": 127460
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10340,9 +10340,9 @@
                 "to": {
                     "startLine": 1815,
                     "startColumn": 4,
-                    "startOffset": 127478,
+                    "startOffset": 127465,
                     "endColumn": 72,
-                    "endOffset": 127546
+                    "endOffset": 127533
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10359,9 +10359,9 @@
                 "to": {
                     "startLine": 1816,
                     "startColumn": 4,
-                    "startOffset": 127551,
+                    "startOffset": 127538,
                     "endColumn": 73,
-                    "endOffset": 127620
+                    "endOffset": 127607
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10378,10 +10378,10 @@
                 "to": {
                     "startLine": 1817,
                     "startColumn": 4,
-                    "startOffset": 127625,
+                    "startOffset": 127612,
                     "endLine": 1818,
                     "endColumn": 12,
-                    "endOffset": 127766
+                    "endOffset": 127753
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10399,10 +10399,10 @@
                 "to": {
                     "startLine": 1819,
                     "startColumn": 4,
-                    "startOffset": 127771,
+                    "startOffset": 127758,
                     "endLine": 1820,
                     "endColumn": 12,
-                    "endOffset": 127910
+                    "endOffset": 127897
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10420,10 +10420,10 @@
                 "to": {
                     "startLine": 1821,
                     "startColumn": 4,
-                    "startOffset": 127915,
+                    "startOffset": 127902,
                     "endLine": 1822,
                     "endColumn": 12,
-                    "endOffset": 128048
+                    "endOffset": 128035
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10441,9 +10441,9 @@
                 "to": {
                     "startLine": 1823,
                     "startColumn": 4,
-                    "startOffset": 128053,
+                    "startOffset": 128040,
                     "endColumn": 65,
-                    "endOffset": 128114
+                    "endOffset": 128101
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10460,9 +10460,9 @@
                 "to": {
                     "startLine": 1824,
                     "startColumn": 4,
-                    "startOffset": 128119,
+                    "startOffset": 128106,
                     "endColumn": 89,
-                    "endOffset": 128204
+                    "endOffset": 128191
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10479,9 +10479,9 @@
                 "to": {
                     "startLine": 1825,
                     "startColumn": 4,
-                    "startOffset": 128209,
+                    "startOffset": 128196,
                     "endColumn": 79,
-                    "endOffset": 128284
+                    "endOffset": 128271
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10498,9 +10498,9 @@
                 "to": {
                     "startLine": 1826,
                     "startColumn": 4,
-                    "startOffset": 128289,
+                    "startOffset": 128276,
                     "endColumn": 91,
-                    "endOffset": 128376
+                    "endOffset": 128363
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10517,9 +10517,9 @@
                 "to": {
                     "startLine": 1827,
                     "startColumn": 4,
-                    "startOffset": 128381,
+                    "startOffset": 128368,
                     "endColumn": 97,
-                    "endOffset": 128474
+                    "endOffset": 128461
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10536,10 +10536,10 @@
                 "to": {
                     "startLine": 1828,
                     "startColumn": 4,
-                    "startOffset": 128479,
+                    "startOffset": 128466,
                     "endLine": 1829,
                     "endColumn": 12,
-                    "endOffset": 128584
+                    "endOffset": 128571
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10557,9 +10557,9 @@
                 "to": {
                     "startLine": 1830,
                     "startColumn": 4,
-                    "startOffset": 128589,
+                    "startOffset": 128576,
                     "endColumn": 77,
-                    "endOffset": 128662
+                    "endOffset": 128649
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10576,9 +10576,9 @@
                 "to": {
                     "startLine": 1831,
                     "startColumn": 4,
-                    "startOffset": 128667,
+                    "startOffset": 128654,
                     "endColumn": 105,
-                    "endOffset": 128768
+                    "endOffset": 128755
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10595,9 +10595,9 @@
                 "to": {
                     "startLine": 1832,
                     "startColumn": 4,
-                    "startOffset": 128773,
+                    "startOffset": 128760,
                     "endColumn": 91,
-                    "endOffset": 128860
+                    "endOffset": 128847
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10614,9 +10614,9 @@
                 "to": {
                     "startLine": 1833,
                     "startColumn": 4,
-                    "startOffset": 128865,
+                    "startOffset": 128852,
                     "endColumn": 103,
-                    "endOffset": 128964
+                    "endOffset": 128951
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10633,9 +10633,9 @@
                 "to": {
                     "startLine": 1834,
                     "startColumn": 4,
-                    "startOffset": 128969,
+                    "startOffset": 128956,
                     "endColumn": 109,
-                    "endOffset": 129074
+                    "endOffset": 129061
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10652,10 +10652,10 @@
                 "to": {
                     "startLine": 1835,
                     "startColumn": 4,
-                    "startOffset": 129079,
+                    "startOffset": 129066,
                     "endLine": 1836,
                     "endColumn": 12,
-                    "endOffset": 129196
+                    "endOffset": 129183
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10673,10 +10673,10 @@
                 "to": {
                     "startLine": 1837,
                     "startColumn": 4,
-                    "startOffset": 129201,
+                    "startOffset": 129188,
                     "endLine": 1840,
                     "endColumn": 12,
-                    "endOffset": 129359
+                    "endOffset": 129346
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10694,10 +10694,10 @@
                 "to": {
                     "startLine": 1841,
                     "startColumn": 4,
-                    "startOffset": 129364,
+                    "startOffset": 129351,
                     "endLine": 1844,
                     "endColumn": 12,
-                    "endOffset": 129516
+                    "endOffset": 129503
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10715,9 +10715,9 @@
                 "to": {
                     "startLine": 1845,
                     "startColumn": 4,
-                    "startOffset": 129521,
+                    "startOffset": 129508,
                     "endColumn": 79,
-                    "endOffset": 129596
+                    "endOffset": 129583
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10734,9 +10734,9 @@
                 "to": {
                     "startLine": 1846,
                     "startColumn": 4,
-                    "startOffset": 129601,
+                    "startOffset": 129588,
                     "endColumn": 99,
-                    "endOffset": 129696
+                    "endOffset": 129683
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10753,9 +10753,9 @@
                 "to": {
                     "startLine": 1847,
                     "startColumn": 4,
-                    "startOffset": 129701,
+                    "startOffset": 129688,
                     "endColumn": 89,
-                    "endOffset": 129786
+                    "endOffset": 129773
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10772,9 +10772,9 @@
                 "to": {
                     "startLine": 1848,
                     "startColumn": 4,
-                    "startOffset": 129791,
+                    "startOffset": 129778,
                     "endColumn": 109,
-                    "endOffset": 129896
+                    "endOffset": 129883
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10791,9 +10791,9 @@
                 "to": {
                     "startLine": 1849,
                     "startColumn": 4,
-                    "startOffset": 129901,
+                    "startOffset": 129888,
                     "endColumn": 91,
-                    "endOffset": 129988
+                    "endOffset": 129975
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10810,10 +10810,10 @@
                 "to": {
                     "startLine": 1850,
                     "startColumn": 4,
-                    "startOffset": 129993,
+                    "startOffset": 129980,
                     "endLine": 1851,
                     "endColumn": 12,
-                    "endOffset": 130088
+                    "endOffset": 130075
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10831,10 +10831,10 @@
                 "to": {
                     "startLine": 1852,
                     "startColumn": 4,
-                    "startOffset": 130093,
+                    "startOffset": 130080,
                     "endLine": 1853,
                     "endColumn": 12,
-                    "endOffset": 130200
+                    "endOffset": 130187
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10852,10 +10852,10 @@
                 "to": {
                     "startLine": 1854,
                     "startColumn": 4,
-                    "startOffset": 130205,
+                    "startOffset": 130192,
                     "endLine": 1855,
                     "endColumn": 12,
-                    "endOffset": 130314
+                    "endOffset": 130301
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10873,10 +10873,10 @@
                 "to": {
                     "startLine": 1856,
                     "startColumn": 4,
-                    "startOffset": 130319,
+                    "startOffset": 130306,
                     "endLine": 1857,
                     "endColumn": 12,
-                    "endOffset": 130430
+                    "endOffset": 130417
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10894,10 +10894,10 @@
                 "to": {
                     "startLine": 1858,
                     "startColumn": 4,
-                    "startOffset": 130435,
+                    "startOffset": 130422,
                     "endLine": 1859,
                     "endColumn": 12,
-                    "endOffset": 130546
+                    "endOffset": 130533
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10915,9 +10915,9 @@
                 "to": {
                     "startLine": 1860,
                     "startColumn": 4,
-                    "startOffset": 130551,
+                    "startOffset": 130538,
                     "endColumn": 93,
-                    "endOffset": 130640
+                    "endOffset": 130627
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10934,9 +10934,9 @@
                 "to": {
                     "startLine": 1861,
                     "startColumn": 4,
-                    "startOffset": 130645,
+                    "startOffset": 130632,
                     "endColumn": 113,
-                    "endOffset": 130754
+                    "endOffset": 130741
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10953,9 +10953,9 @@
                 "to": {
                     "startLine": 1862,
                     "startColumn": 4,
-                    "startOffset": 130759,
+                    "startOffset": 130746,
                     "endColumn": 117,
-                    "endOffset": 130872
+                    "endOffset": 130859
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10972,10 +10972,10 @@
                 "to": {
                     "startLine": 1863,
                     "startColumn": 4,
-                    "startOffset": 130877,
+                    "startOffset": 130864,
                     "endLine": 1864,
                     "endColumn": 12,
-                    "endOffset": 130974
+                    "endOffset": 130961
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -10993,10 +10993,10 @@
                 "to": {
                     "startLine": 1865,
                     "startColumn": 4,
-                    "startOffset": 130979,
+                    "startOffset": 130966,
                     "endLine": 1866,
                     "endColumn": 12,
-                    "endOffset": 131094
+                    "endOffset": 131081
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11014,10 +11014,10 @@
                 "to": {
                     "startLine": 1867,
                     "startColumn": 4,
-                    "startOffset": 131099,
+                    "startOffset": 131086,
                     "endLine": 1868,
                     "endColumn": 12,
-                    "endOffset": 131216
+                    "endOffset": 131203
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11035,9 +11035,9 @@
                 "to": {
                     "startLine": 1869,
                     "startColumn": 4,
-                    "startOffset": 131221,
+                    "startOffset": 131208,
                     "endColumn": 81,
-                    "endOffset": 131298
+                    "endOffset": 131285
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11054,9 +11054,9 @@
                 "to": {
                     "startLine": 1870,
                     "startColumn": 4,
-                    "startOffset": 131303,
+                    "startOffset": 131290,
                     "endColumn": 103,
-                    "endOffset": 131402
+                    "endOffset": 131389
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11073,9 +11073,9 @@
                 "to": {
                     "startLine": 1871,
                     "startColumn": 4,
-                    "startOffset": 131407,
+                    "startOffset": 131394,
                     "endColumn": 119,
-                    "endOffset": 131522
+                    "endOffset": 131509
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11092,9 +11092,9 @@
                 "to": {
                     "startLine": 1872,
                     "startColumn": 4,
-                    "startOffset": 131527,
+                    "startOffset": 131514,
                     "endColumn": 125,
-                    "endOffset": 131648
+                    "endOffset": 131635
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11111,9 +11111,9 @@
                 "to": {
                     "startLine": 1873,
                     "startColumn": 4,
-                    "startOffset": 131653,
+                    "startOffset": 131640,
                     "endColumn": 93,
-                    "endOffset": 131742
+                    "endOffset": 131729
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11130,9 +11130,9 @@
                 "to": {
                     "startLine": 1874,
                     "startColumn": 4,
-                    "startOffset": 131747,
+                    "startOffset": 131734,
                     "endColumn": 87,
-                    "endOffset": 131830
+                    "endOffset": 131817
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11149,9 +11149,9 @@
                 "to": {
                     "startLine": 1875,
                     "startColumn": 4,
-                    "startOffset": 131835,
+                    "startOffset": 131822,
                     "endColumn": 111,
-                    "endOffset": 131942
+                    "endOffset": 131929
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11168,9 +11168,9 @@
                 "to": {
                     "startLine": 1876,
                     "startColumn": 4,
-                    "startOffset": 131947,
+                    "startOffset": 131934,
                     "endColumn": 115,
-                    "endOffset": 132058
+                    "endOffset": 132045
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11187,9 +11187,9 @@
                 "to": {
                     "startLine": 1877,
                     "startColumn": 4,
-                    "startOffset": 132063,
+                    "startOffset": 132050,
                     "endColumn": 121,
-                    "endOffset": 132180
+                    "endOffset": 132167
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11206,9 +11206,9 @@
                 "to": {
                     "startLine": 1878,
                     "startColumn": 4,
-                    "startOffset": 132185,
+                    "startOffset": 132172,
                     "endColumn": 111,
-                    "endOffset": 132292
+                    "endOffset": 132279
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11225,10 +11225,10 @@
                 "to": {
                     "startLine": 1879,
                     "startColumn": 4,
-                    "startOffset": 132297,
+                    "startOffset": 132284,
                     "endLine": 1881,
                     "endColumn": 12,
-                    "endOffset": 132467
+                    "endOffset": 132454
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11246,9 +11246,9 @@
                 "to": {
                     "startLine": 1882,
                     "startColumn": 4,
-                    "startOffset": 132472,
+                    "startOffset": 132459,
                     "endColumn": 115,
-                    "endOffset": 132583
+                    "endOffset": 132570
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11265,10 +11265,10 @@
                 "to": {
                     "startLine": 1883,
                     "startColumn": 4,
-                    "startOffset": 132588,
+                    "startOffset": 132575,
                     "endLine": 1884,
                     "endColumn": 12,
-                    "endOffset": 132681
+                    "endOffset": 132668
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11286,10 +11286,10 @@
                 "to": {
                     "startLine": 1885,
                     "startColumn": 4,
-                    "startOffset": 132686,
+                    "startOffset": 132673,
                     "endLine": 1886,
                     "endColumn": 12,
-                    "endOffset": 132793
+                    "endOffset": 132780
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11307,10 +11307,10 @@
                 "to": {
                     "startLine": 1887,
                     "startColumn": 4,
-                    "startOffset": 132798,
+                    "startOffset": 132785,
                     "endLine": 1888,
                     "endColumn": 12,
-                    "endOffset": 132917
+                    "endOffset": 132904
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11328,9 +11328,9 @@
                 "to": {
                     "startLine": 1889,
                     "startColumn": 4,
-                    "startOffset": 132922,
+                    "startOffset": 132909,
                     "endColumn": 66,
-                    "endOffset": 132984
+                    "endOffset": 132971
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11347,10 +11347,10 @@
                 "to": {
                     "startLine": 1890,
                     "startColumn": 4,
-                    "startOffset": 132989,
+                    "startOffset": 132976,
                     "endLine": 1891,
                     "endColumn": 12,
-                    "endOffset": 133110
+                    "endOffset": 133097
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11368,9 +11368,9 @@
                 "to": {
                     "startLine": 1892,
                     "startColumn": 4,
-                    "startOffset": 133115,
+                    "startOffset": 133102,
                     "endColumn": 67,
-                    "endOffset": 133178
+                    "endOffset": 133165
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11387,10 +11387,10 @@
                 "to": {
                     "startLine": 1893,
                     "startColumn": 4,
-                    "startOffset": 133183,
+                    "startOffset": 133170,
                     "endLine": 1894,
                     "endColumn": 12,
-                    "endOffset": 133306
+                    "endOffset": 133293
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11408,10 +11408,10 @@
                 "to": {
                     "startLine": 1895,
                     "startColumn": 4,
-                    "startOffset": 133311,
+                    "startOffset": 133298,
                     "endLine": 1896,
                     "endColumn": 12,
-                    "endOffset": 133450
+                    "endOffset": 133437
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11429,10 +11429,10 @@
                 "to": {
                     "startLine": 1897,
                     "startColumn": 4,
-                    "startOffset": 133455,
+                    "startOffset": 133442,
                     "endLine": 1898,
                     "endColumn": 12,
-                    "endOffset": 133578
+                    "endOffset": 133565
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11450,9 +11450,9 @@
                 "to": {
                     "startLine": 1899,
                     "startColumn": 4,
-                    "startOffset": 133583,
+                    "startOffset": 133570,
                     "endColumn": 68,
-                    "endOffset": 133647
+                    "endOffset": 133634
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11469,9 +11469,9 @@
                 "to": {
                     "startLine": 1900,
                     "startColumn": 4,
-                    "startOffset": 133652,
+                    "startOffset": 133639,
                     "endColumn": 94,
-                    "endOffset": 133742
+                    "endOffset": 133729
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11488,9 +11488,9 @@
                 "to": {
                     "startLine": 1901,
                     "startColumn": 4,
-                    "startOffset": 133747,
+                    "startOffset": 133734,
                     "endColumn": 114,
-                    "endOffset": 133857
+                    "endOffset": 133844
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11507,9 +11507,9 @@
                 "to": {
                     "startLine": 1902,
                     "startColumn": 4,
-                    "startOffset": 133862,
+                    "startOffset": 133849,
                     "endColumn": 112,
-                    "endOffset": 133970
+                    "endOffset": 133957
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11526,9 +11526,9 @@
                 "to": {
                     "startLine": 1903,
                     "startColumn": 4,
-                    "startOffset": 133975,
+                    "startOffset": 133962,
                     "endColumn": 98,
-                    "endOffset": 134069
+                    "endOffset": 134056
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11545,9 +11545,9 @@
                 "to": {
                     "startLine": 1904,
                     "startColumn": 4,
-                    "startOffset": 134074,
+                    "startOffset": 134061,
                     "endColumn": 108,
-                    "endOffset": 134178
+                    "endOffset": 134165
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11564,9 +11564,9 @@
                 "to": {
                     "startLine": 1905,
                     "startColumn": 4,
-                    "startOffset": 134183,
+                    "startOffset": 134170,
                     "endColumn": 110,
-                    "endOffset": 134289
+                    "endOffset": 134276
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11583,9 +11583,9 @@
                 "to": {
                     "startLine": 1906,
                     "startColumn": 4,
-                    "startOffset": 134294,
+                    "startOffset": 134281,
                     "endColumn": 110,
-                    "endOffset": 134400
+                    "endOffset": 134387
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11602,9 +11602,9 @@
                 "to": {
                     "startLine": 1907,
                     "startColumn": 4,
-                    "startOffset": 134405,
+                    "startOffset": 134392,
                     "endColumn": 100,
-                    "endOffset": 134501
+                    "endOffset": 134488
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11621,9 +11621,9 @@
                 "to": {
                     "startLine": 1908,
                     "startColumn": 4,
-                    "startOffset": 134506,
+                    "startOffset": 134493,
                     "endColumn": 104,
-                    "endOffset": 134606
+                    "endOffset": 134593
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11640,10 +11640,10 @@
                 "to": {
                     "startLine": 1909,
                     "startColumn": 4,
-                    "startOffset": 134611,
+                    "startOffset": 134598,
                     "endLine": 1910,
                     "endColumn": 12,
-                    "endOffset": 134718
+                    "endOffset": 134705
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11661,10 +11661,10 @@
                 "to": {
                     "startLine": 1911,
                     "startColumn": 4,
-                    "startOffset": 134723,
+                    "startOffset": 134710,
                     "endLine": 1912,
                     "endColumn": 12,
-                    "endOffset": 134848
+                    "endOffset": 134835
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11682,9 +11682,9 @@
                 "to": {
                     "startLine": 1913,
                     "startColumn": 4,
-                    "startOffset": 134853,
+                    "startOffset": 134840,
                     "endColumn": 90,
-                    "endOffset": 134939
+                    "endOffset": 134926
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11701,9 +11701,9 @@
                 "to": {
                     "startLine": 1914,
                     "startColumn": 4,
-                    "startOffset": 134944,
+                    "startOffset": 134931,
                     "endColumn": 122,
-                    "endOffset": 135062
+                    "endOffset": 135049
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11720,10 +11720,10 @@
                 "to": {
                     "startLine": 1915,
                     "startColumn": 4,
-                    "startOffset": 135067,
+                    "startOffset": 135054,
                     "endLine": 1916,
                     "endColumn": 12,
-                    "endOffset": 135174
+                    "endOffset": 135161
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11741,9 +11741,9 @@
                 "to": {
                     "startLine": 1917,
                     "startColumn": 4,
-                    "startOffset": 135179,
+                    "startOffset": 135166,
                     "endColumn": 85,
-                    "endOffset": 135260
+                    "endOffset": 135247
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11760,9 +11760,9 @@
                 "to": {
                     "startLine": 1918,
                     "startColumn": 4,
-                    "startOffset": 135265,
+                    "startOffset": 135252,
                     "endColumn": 103,
-                    "endOffset": 135364
+                    "endOffset": 135351
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11779,10 +11779,10 @@
                 "to": {
                     "startLine": 1919,
                     "startColumn": 4,
-                    "startOffset": 135369,
+                    "startOffset": 135356,
                     "endLine": 1920,
                     "endColumn": 12,
-                    "endOffset": 135472
+                    "endOffset": 135459
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11800,10 +11800,10 @@
                 "to": {
                     "startLine": 1921,
                     "startColumn": 4,
-                    "startOffset": 135477,
+                    "startOffset": 135464,
                     "endLine": 1922,
                     "endColumn": 12,
-                    "endOffset": 135572
+                    "endOffset": 135559
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11821,10 +11821,10 @@
                 "to": {
                     "startLine": 1923,
                     "startColumn": 4,
-                    "startOffset": 135577,
+                    "startOffset": 135564,
                     "endLine": 1924,
                     "endColumn": 12,
-                    "endOffset": 135690
+                    "endOffset": 135677
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11842,10 +11842,10 @@
                 "to": {
                     "startLine": 1925,
                     "startColumn": 4,
-                    "startOffset": 135695,
+                    "startOffset": 135682,
                     "endLine": 1926,
                     "endColumn": 12,
-                    "endOffset": 135794
+                    "endOffset": 135781
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11863,10 +11863,10 @@
                 "to": {
                     "startLine": 1927,
                     "startColumn": 4,
-                    "startOffset": 135799,
+                    "startOffset": 135786,
                     "endLine": 1928,
                     "endColumn": 12,
-                    "endOffset": 135898
+                    "endOffset": 135885
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11884,10 +11884,10 @@
                 "to": {
                     "startLine": 1929,
                     "startColumn": 4,
-                    "startOffset": 135903,
+                    "startOffset": 135890,
                     "endLine": 1930,
                     "endColumn": 12,
-                    "endOffset": 136024
+                    "endOffset": 136011
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11905,9 +11905,9 @@
                 "to": {
                     "startLine": 1931,
                     "startColumn": 4,
-                    "startOffset": 136029,
+                    "startOffset": 136016,
                     "endColumn": 87,
-                    "endOffset": 136112
+                    "endOffset": 136099
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11924,9 +11924,9 @@
                 "to": {
                     "startLine": 1932,
                     "startColumn": 4,
-                    "startOffset": 136117,
+                    "startOffset": 136104,
                     "endColumn": 89,
-                    "endOffset": 136202
+                    "endOffset": 136189
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11943,9 +11943,9 @@
                 "to": {
                     "startLine": 1933,
                     "startColumn": 4,
-                    "startOffset": 136207,
+                    "startOffset": 136194,
                     "endColumn": 109,
-                    "endOffset": 136312
+                    "endOffset": 136299
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11962,9 +11962,9 @@
                 "to": {
                     "startLine": 1934,
                     "startColumn": 4,
-                    "startOffset": 136317,
+                    "startOffset": 136304,
                     "endColumn": 83,
-                    "endOffset": 136396
+                    "endOffset": 136383
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -11981,9 +11981,9 @@
                 "to": {
                     "startLine": 1935,
                     "startColumn": 4,
-                    "startOffset": 136401,
+                    "startOffset": 136388,
                     "endColumn": 53,
-                    "endOffset": 136450
+                    "endOffset": 136437
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -12000,9 +12000,9 @@
                 "to": {
                     "startLine": 1936,
                     "startColumn": 4,
-                    "startOffset": 136455,
+                    "startOffset": 136442,
                     "endColumn": 121,
-                    "endOffset": 136572
+                    "endOffset": 136559
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -12019,9 +12019,9 @@
                 "to": {
                     "startLine": 1937,
                     "startColumn": 4,
-                    "startOffset": 136577,
+                    "startOffset": 136564,
                     "endColumn": 105,
-                    "endOffset": 136678
+                    "endOffset": 136665
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -12038,9 +12038,9 @@
                 "to": {
                     "startLine": 1938,
                     "startColumn": 4,
-                    "startOffset": 136683,
+                    "startOffset": 136670,
                     "endColumn": 109,
-                    "endOffset": 136788
+                    "endOffset": 136775
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -12057,9 +12057,9 @@
                 "to": {
                     "startLine": 1939,
                     "startColumn": 4,
-                    "startOffset": 136793,
+                    "startOffset": 136780,
                     "endColumn": 83,
-                    "endOffset": 136872
+                    "endOffset": 136859
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -12076,9 +12076,9 @@
                 "to": {
                     "startLine": 1940,
                     "startColumn": 4,
-                    "startOffset": 136877,
+                    "startOffset": 136864,
                     "endColumn": 125,
-                    "endOffset": 136998
+                    "endOffset": 136985
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values\\values.xml",
@@ -12095,10 +12095,10 @@
                 "to": {
                     "startLine": 1941,
                     "startColumn": 4,
-                    "startOffset": 137003,
+                    "startOffset": 136990,
                     "endLine": 1944,
                     "endColumn": 12,
-                    "endOffset": 137209
+                    "endOffset": 137196
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\values\\values.xml",
@@ -12116,10 +12116,10 @@
                 "to": {
                     "startLine": 1945,
                     "startColumn": 4,
-                    "startOffset": 137214,
+                    "startOffset": 137201,
                     "endLine": 1951,
                     "endColumn": 12,
-                    "endOffset": 137684
+                    "endOffset": 137671
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\values\\values.xml",
@@ -12137,10 +12137,10 @@
                 "to": {
                     "startLine": 1952,
                     "startColumn": 4,
-                    "startOffset": 137689,
+                    "startOffset": 137676,
                     "endLine": 1954,
                     "endColumn": 12,
-                    "endOffset": 137843
+                    "endOffset": 137830
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\values\\values.xml",
@@ -12158,10 +12158,10 @@
                 "to": {
                     "startLine": 1955,
                     "startColumn": 4,
-                    "startOffset": 137848,
+                    "startOffset": 137835,
                     "endLine": 1963,
                     "endColumn": 12,
-                    "endOffset": 138382
+                    "endOffset": 138369
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\values\\values.xml",
@@ -12179,10 +12179,10 @@
                 "to": {
                     "startLine": 1964,
                     "startColumn": 4,
-                    "startOffset": 138387,
+                    "startOffset": 138374,
                     "endLine": 1969,
                     "endColumn": 12,
-                    "endOffset": 138729
+                    "endOffset": 138716
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\values\\values.xml",
@@ -12200,10 +12200,10 @@
                 "to": {
                     "startLine": 1970,
                     "startColumn": 4,
-                    "startOffset": 138734,
+                    "startOffset": 138721,
                     "endLine": 1972,
                     "endColumn": 12,
-                    "endOffset": 138858
+                    "endOffset": 138845
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\values\\values.xml",
@@ -12221,10 +12221,10 @@
                 "to": {
                     "startLine": 1973,
                     "startColumn": 4,
-                    "startOffset": 138863,
+                    "startOffset": 138850,
                     "endLine": 1982,
                     "endColumn": 12,
-                    "endOffset": 139553
+                    "endOffset": 139540
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\values\\values.xml",
@@ -12242,10 +12242,10 @@
                 "to": {
                     "startLine": 1983,
                     "startColumn": 4,
-                    "startOffset": 139558,
+                    "startOffset": 139545,
                     "endLine": 1986,
                     "endColumn": 12,
-                    "endOffset": 139733
+                    "endOffset": 139720
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\values\\values.xml",
@@ -12263,10 +12263,10 @@
                 "to": {
                     "startLine": 1987,
                     "startColumn": 4,
-                    "startOffset": 139738,
+                    "startOffset": 139725,
                     "endLine": 1990,
                     "endColumn": 12,
-                    "endOffset": 139983
+                    "endOffset": 139970
                 },
                 "from": {
                     "file": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\values\\values.xml",

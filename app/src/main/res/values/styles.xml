@@ -26,7 +26,7 @@
         <item name="android:windowNoTitle">true</item>
     </style>
 	
-	<style name="Pink" parent="android:Theme.Material.Light">
+	<style name="Pink" parent="Theme.AppCompat">
 
 	    <item name="android:windowBackground">@color/pinkT</item>
 	    <item name="android:colorBackground">@color/purpleT</item>

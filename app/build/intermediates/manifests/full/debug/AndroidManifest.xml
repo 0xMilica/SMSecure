@@ -24,7 +24,7 @@
         android:allowBackup="true"
         android:icon="@drawable/app_icon"
         android:label="@string/app_name"
-        android:theme="@style/Pink" >
+        android:theme="@style/Theme.AppCompat.NoActionBar" >
         <meta-data
             android:name="android.app.default_searchable"
             android:value=".Activity.MainActivity" />
@@ -36,7 +36,6 @@
         <activity
             android:name="com.pma.smsecure.Activity.SplashScreen"
             android:label="@string/app_name" >
-            android:theme="@android:style/Theme.Material.NoActionBar"
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -46,7 +45,8 @@
         <activity
             android:name="com.pma.smsecure.Activity.ConversationActivity"
             android:label="@string/title_activity_conversation"
-            android:parentActivityName="com.pma.smsecure.Activity.MainActivity" >
+            android:parentActivityName="com.pma.smsecure.Activity.MainActivity"
+            android:theme="@style/AppTheme" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.pma.smsecure.Activity.MainActivity" />
@@ -70,13 +70,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.pma.smsecure.Activity.SettingsActivity"
+            android:name="com.pma.smsecure.Activity.ActivitySettings"
             android:label="@string/title_activity_settings" >
         </activity>
         <activity
             android:name="com.pma.smsecure.Activity.ComposeActivity"
             android:label="@string/title_activity_compose"
             android:parentActivityName="com.pma.smsecure.Activity.MainActivity"
+            android:theme="@style/AppTheme"
             android:windowSoftInputMode="adjustResize" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -96,14 +97,6 @@
             <meta-data
                 android:name="android.app.searchable"
                 android:resource="@xml/searchable" />
-        </activity>
-        <activity
-            android:name="com.pma.smsecure.Activity.ActivitySettings"
-            android:theme="@android:style/Theme.Black.NoTitleBar" >
-        </activity>
-        <activity
-            android:name="com.pma.smsecure.Activity.ShowSettingsActivity"
-            android:label="@string/title_activity_show_settings" >
         </activity>
 
         <receiver android:name="com.pma.smsecure.Receiver.SMSReceiver" >

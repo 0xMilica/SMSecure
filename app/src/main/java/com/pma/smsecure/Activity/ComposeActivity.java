@@ -48,7 +48,7 @@ public class ComposeActivity extends Activity {
 		
 		editTextMsg = (EditText)findViewById(R.id.editTxtSMSC);
 		editTextPhone = (EditText)findViewById(R.id.textSelectContact);
-		// sminka, new message is unsecured by default
+		//new message is unsecured by default
 		editTextMsg.getBackground().setColorFilter(Color.RED, PorterDuff.Mode.SRC_IN);
 	}
 
@@ -164,7 +164,7 @@ public class ComposeActivity extends Activity {
 			
 			activeConversation.setContact(contact);
 			activeConversation.setIsSecure(isSecure);
-			activeConversation.setPhoneNumberC(phone_number);
+			activeConversation.setPhoneNumberC(phone_number);// ovo polje je uvedeno samo radi brzeg rada aplikacije kada imamo vise podataka
 			String senderName = SMSHelper.getContactName(getBaseContext(), phone_number);
 			activeConversation.setSenderName(senderName);
 			activeConversation.setSmsCount(1);
@@ -242,8 +242,8 @@ public class ComposeActivity extends Activity {
 		AlertDialog alertDialog = new AlertDialog.Builder(ComposeActivity.this).create();
 		alertDialog.setTitle("Info");
  
-		//TODO srediti sta ce se ispisivati
-		alertDialog.setMessage("You are currently not connected to the internet! \n Connect and press lock button to secure.");
+		//sta ce se ispisivati
+		alertDialog.setMessage("Can't reach public key; check your connection to the Internet");
 		alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
 
 		    new DialogInterface.OnClickListener() {

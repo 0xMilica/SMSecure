@@ -1694,7 +1694,7 @@
         <item>180</item>
         <item>360</item>
         <item>-1</item>
-    </string-array><string name="pref_title_new_message_notifications">New message notifications</string></file><file path="C:\Users\dell\StudioProjects\SMSecureMaster\app\src\main\res\values\styles.xml" qualifiers=""><style name="Pink" parent="android:Theme.Material.Light">
+    </string-array><string name="pref_title_new_message_notifications">New message notifications</string></file><file path="C:\Users\dell\StudioProjects\SMSecureMaster\app\src\main\res\values\styles.xml" qualifiers=""><style name="Pink" parent="Theme.AppCompat">
 
 	    <item name="android:windowBackground">@color/pinkT</item>
 	    <item name="android:colorBackground">@color/purpleT</item>

@@ -22,16 +22,16 @@ public class SMSReceiver2 extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
         // Get the data (SMS data) bound to intent
         Bundle bundle = intent.getExtras();
-        Log.d(TAG,"onRecive u secure prijemniku poruke");
+        Log.d(TAG,"onReceive u secure prijemniku poruke");
         
         SmsMessage[] msgs = null;
  
-        String str = "";// samo za debug, da vidimo sta je stiglo
+        String str = "";// samo za debug, da se vidi sta je stiglo
  
         if (bundle != null){
             // Retrieve the Binary SMS data
             Object[] pdus = (Object[]) bundle.get("pdus");
-            msgs = new SmsMessage[pdus.length];
+            msgs = new SmsMessage[pdus.length]; //as many pdus are there, as much SMS messages will be created
  
             // For every SMS message received (although multipart is not supported with binary)
             for (int i=0; i<msgs.length; i++) {

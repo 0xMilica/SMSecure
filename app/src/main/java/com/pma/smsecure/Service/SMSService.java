@@ -101,7 +101,7 @@ public class SMSService extends IntentService {
 				daoFactory.getNewDaoSession(this).getCacheDao().delete(active_cache);
 				
 				// osvezi smsContent sa sadrzajem cele poruke
-				smsContent=all_parts; // mrzi me dole da menjam kod
+				smsContent=all_parts;
 			}
 		}
 		
@@ -153,7 +153,7 @@ public class SMSService extends IntentService {
 			
 			ConversationDao conversationDao =(ConversationDao)daoFactory.getDaoObject("ConversationDao", getBaseContext());
 			long conversationId = conversationDao.insert(conversation);
-			Log.d(TAG, "snimo novu konverzaciju");
+			Log.d(TAG, "snimio novu konverzaciju");
 			
 			conversation = conversationDao.load(conversationId);
 			Log.d(TAG, "ucitao novu konverzaciju");

@@ -90,7 +90,7 @@ public class SplashScreen extends Activity implements ICommunicator {
 		btnLogin.setEnabled(false);
 		btnLogin.setClickable(false);
 		
-		// TODO: za neku narednu verziju resiti problem menjanja sim kartice, odnosno broja ...
+
 		if(isFirstTimeStart){
 			if(GetPhoneNumber())
 			{

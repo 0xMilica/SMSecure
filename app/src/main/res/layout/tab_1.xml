@@ -1,16 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
 
-    <TextView
+
+
+    <ListView
+        android:divider="@android:color/transparent"
+        android:dividerHeight="5.0sp"
+        android:id="@+id/listMainView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </ListView>
+
+
+    <android.support.design.widget.FloatingActionButton
+
+        android:id="@+id/btnNewMessage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="You Are In Tab 1"
-        android:id="@+id/textView"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_margin="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_mode_edit_black_24dp"
+
+
+        android:onClick="createNewMessage"
+        app:backgroundTint="@color/abc_background_cache_hint_selector_material_dark"
+        app:rippleColor="@color/abc_background_cache_hint_selector_material_dark"
+        />
 
 </RelativeLayout>
