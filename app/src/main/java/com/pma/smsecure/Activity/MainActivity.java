@@ -3,8 +3,6 @@ package com.pma.smsecure.Activity;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
-
-import android.app.Activity;
 import android.app.AlarmManager;
 import android.app.AlertDialog;
 import android.app.PendingIntent;
@@ -24,11 +22,8 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.support.v4.content.LocalBroadcastManager;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v4.view.ViewPager;
-import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
@@ -40,8 +35,8 @@ import android.widget.AdapterView.OnItemLongClickListener;
 import android.widget.ListView;
 import android.widget.SearchView;
 import android.widget.Toast;
-import android.provider.ContactsContract;
-
+import com.pma.smsecure.Adapter.ContactsListViewAdapter;
+import com.pma.smsecure.AsyncTasks.LoadContactsTask;
 import com.pma.smsecure.R;
 import com.pma.smsecure.Adapter.MainListViewAdapter;
 import com.pma.smsecure.Dao.Conversation;
@@ -65,18 +60,20 @@ import com.pma.smsecure.Tabs.ViewPagerAdapter;
 public class MainActivity extends ActionBarActivity implements ICommunicator{
 
 	private static final String TAG = "main aktivnost";
+	// TODO: raslojiti kao sto je odradjeno za kontakte
 	private MainListViewAdapter listViewAdapter;
+	private ContactsListViewAdapter contactsListViewAdapter;
 	private ProgressDialog pd;
 	private SMSService smsService; // ako je null onda smo diskonektovani od servisa
 	private int item_position_clicked;
 	private int sync_after_sec = 300; // 300 sekundi; 5 min
 
-	//Tab atributi
+	// Tab atributi
 	ViewPager pager;
 	ViewPagerAdapter adapter;
 	SlidingTabLayout tabs;
 	CharSequence Titles[]={"Chats","Contacts"};
-	int Numboftabs =2;
+	int Numboftabs = 2;
 	Toolbar toolbar;
 	
 	// db atributi
@@ -103,8 +100,6 @@ public class MainActivity extends ActionBarActivity implements ICommunicator{
 		}
 	};
 
-
-
 	@Override
 	protected void onRestart() {
 		super.onRestart();
@@ -119,8 +114,6 @@ public class MainActivity extends ActionBarActivity implements ICommunicator{
 		unbindService(mConnection);
 		Log.d(TAG, "onPause otkacio se od servisa");
 	}
-
-
 
 	@Override
 	protected void onResume() {
@@ -137,7 +130,6 @@ public class MainActivity extends ActionBarActivity implements ICommunicator{
 		nDataStore.cancelNotification(this, 1);
 		
 	}
-
 
 	@Override
 	protected void onStart() {
@@ -161,7 +153,6 @@ public class MainActivity extends ActionBarActivity implements ICommunicator{
 		super.onCreate(savedInstanceState);
 		Log.d(TAG, "onCreate");
 
-
 		/************************Tema************************/
 		UtilProperties.onActivityCreateSetTheme(this);
 		setContentView(R.layout.activity_main);
@@ -170,7 +161,6 @@ public class MainActivity extends ActionBarActivity implements ICommunicator{
 
 		toolbar = (Toolbar) findViewById(R.id.tool_bar);
 		setSupportActionBar(toolbar);
-
 
 		// Creating The ViewPagerAdapter and Passing Fragment Manager, Titles fot the Tabs and Number Of Tabs.
 		adapter =  new ViewPagerAdapter(getSupportFragmentManager(),Titles,Numboftabs);
@@ -193,12 +183,10 @@ public class MainActivity extends ActionBarActivity implements ICommunicator{
 
 		// Setting the ViewPager For the SlidingTabsLayout
 		tabs.setViewPager(pager);
+
 		/************************Sinhronizacija************************/
 		sync_after_sec = UtilProperties.changeFrequency(this);
-
-
 		/************************Alarmi************************/
-		UtilProperties.changeSound(this);
 
 		/***********************Baza*************************/
 		DevOpenHelper helper = new DaoMaster.DevOpenHelper(getBaseContext(), "pmasms-db", null);
@@ -213,8 +201,8 @@ public class MainActivity extends ActionBarActivity implements ICommunicator{
 
 		// list adapter koji ce prikazati sve konverzacije
 		listViewAdapter = new MainListViewAdapter();
+		contactsListViewAdapter = new ContactsListViewAdapter();
 
-		// popunjavanje main liste ...
 		new AsyncTask<Void, Void, Void>() {
 
 			@Override
@@ -225,14 +213,14 @@ public class MainActivity extends ActionBarActivity implements ICommunicator{
 			@Override
 			protected Void doInBackground(Void... params) {
 
-				List<Conversation> listaca = getAllConversationFromPMA();
-				listViewAdapter.setConversations(listaca);
-
+				List<Conversation> conversations = getAllConversationFromPMA();
+				listViewAdapter.setConversations(conversations);
 				return null;
 			}
 
 			@Override
 			protected void onPostExecute(Void result) {
+
 				ListView listView = (ListView) findViewById(R.id.listMainView);
 				listView.setAdapter(listViewAdapter);
 				// ON CLICK
@@ -264,8 +252,9 @@ public class MainActivity extends ActionBarActivity implements ICommunicator{
 				pd.dismiss();
 			}
 		}.execute((Void[]) null);
-		
-		
+
+		LoadContactsTask lcTask = new LoadContactsTask(contactsListViewAdapter, this);
+		lcTask.execute((Void[]) null);
 
 		receiver = new BroadcastReceiver() {
 	        @Override
@@ -280,59 +269,54 @@ public class MainActivity extends ActionBarActivity implements ICommunicator{
 
 	}
 
+	public void createNewMessage(View view) {
+		Intent intent = new Intent(MainActivity.this, ComposeActivity.class);
+		startActivity(intent);
+	}
 
-			public void createNewMessage(View view) {
-				Intent intent = new Intent(MainActivity.this, ComposeActivity.class);
-				startActivity(intent);
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.activity_main_actions, menu);
+
+		SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
+		SearchView searchView = (SearchView) menu.findItem(R.id.action_search)
+				.getActionView();
+		if (null != searchView) {
+			searchView.setSearchableInfo(searchManager
+					.getSearchableInfo(new ComponentName(this, SearchResultsActivity.class)));//getComponentName()
+			searchView.setIconifiedByDefault(true);
+
+		}
+
+		SearchView.OnQueryTextListener queryTextListener = new SearchView.OnQueryTextListener() {
+			public boolean onQueryTextChange(String newText) {
+				// This is your adapter that will be filtered
+				Log.d(TAG, "textChange = " + newText);
+
+
+				//listViewAdapter.getFilter().filter(newText);
+
+				return false;
 			}
 
+			public boolean onQueryTextSubmit(String query) {
+				// **Here you can get the value "query" which is entered in the search box.**
+				Log.d(TAG, "Query = " + query);
+				Intent searchIntent = new Intent(getApplicationContext(), SearchResultsActivity.class);
+				searchIntent.putExtra("query", query);
+				startActivity(searchIntent);
 
-			@Override
-			public boolean onCreateOptionsMenu(Menu menu) {
-				// Inflate the menu; this adds items to the action bar if it is present.
-				getMenuInflater().inflate(R.menu.activity_main_actions, menu);
-
-				SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
-				SearchView searchView = (SearchView) menu.findItem(R.id.action_search)
-						.getActionView();
-				if (null != searchView) {
-					searchView.setSearchableInfo(searchManager
-							.getSearchableInfo(new ComponentName(this, SearchResultsActivity.class)));//getComponentName()
-					searchView.setIconifiedByDefault(true);
-
-				}
-
-				SearchView.OnQueryTextListener queryTextListener = new SearchView.OnQueryTextListener() {
-					public boolean onQueryTextChange(String newText) {
-						// This is your adapter that will be filtered
-						Log.d(TAG, "textChange = " + newText);
-
-
-						//listViewAdapter.getFilter().filter(newText);
-
-						return false;
-					}
-
-					public boolean onQueryTextSubmit(String query) {
-						// **Here you can get the value "query" which is entered in the search box.**
-						Log.d(TAG, "Query = " + query);
-						Intent searchIntent = new Intent(getApplicationContext(), SearchResultsActivity.class);
-						searchIntent.putExtra("query", query);
-						startActivity(searchIntent);
-
-						return false;
-					}
-				};
-
-
-			return true;
+				return false;
 			}
+		};
 
 
+	return true;
+	}
 
-
-			@Override
-			public boolean onOptionsItemSelected(MenuItem item) {
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
 				// Handle action bar item clicks here. The action bar will
 				// automatically handle clicks on the Home/Up button, so long
 				// as you specify a parent activity in AndroidManifest.xml.
@@ -366,11 +350,10 @@ public class MainActivity extends ActionBarActivity implements ICommunicator{
 				return super.onOptionsItemSelected(item);
 			}
 
-			/**
-			 * Kupi sve konverzacije sortirane po datumu
-			 * @return List<Conversation>
-			 */
-
+	/**
+	 * Kupi sve konverzacije sortirane po datumu
+	 * @return List<Conversation>
+	 */
 	private List<Conversation> getAllConversationFromPMA(){
 		
 		String timeColumn = ConversationDao.Properties.TimeForLastSMS.columnName;
@@ -389,7 +372,6 @@ public class MainActivity extends ActionBarActivity implements ICommunicator{
 		
 		return listaca;
 	}
-
 
 	@Override
 	public void messageFromDialog(Class<?> cls, String strData, int intData) {
@@ -484,5 +466,4 @@ public class MainActivity extends ActionBarActivity implements ICommunicator{
 		AlarmManager alarm = (AlarmManager)getSystemService(Context.ALARM_SERVICE);
 		alarm.setRepeating(AlarmManager.RTC_WAKEUP, cal.getTimeInMillis(), sync_after_sec*1000, pintent);
 	}
-
-		}
+}

@@ -39,7 +39,7 @@ public class ActivitySettings extends PreferenceActivity implements OnSharedPref
 		sPrefs.unregisterOnSharedPreferenceChangeListener(this);
 	}
 	
-	public void changePassword(String newPassword){
+	public void changePassword(String newPassword, String oldPassword){
 		
 		UserDao userDao = (UserDao)daoFactory.getDaoObject("UserDao", getBaseContext());
 		User user = userDao.load(1L);
@@ -66,9 +66,10 @@ public class ActivitySettings extends PreferenceActivity implements OnSharedPref
 			
 			case "password":
 				
-				String updPassword = sharedPreferences.getString(key, "");
-				if(!updPassword.equals("")){
-					changePassword(updPassword);
+				String newPassword = sharedPreferences.getString(key, "");
+				String oldPassword = sharedPreferences.getString("old_"+key, "");
+				if(!newPassword.equals("") && !oldPassword.equals("")){
+					changePassword(newPassword, oldPassword);
 					SharedPreferences.Editor editor = sharedPreferences.edit();
 					editor.putString(key, "");
 					editor.commit();

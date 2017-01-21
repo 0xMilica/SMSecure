@@ -295,7 +295,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="0034109c1f41ad0d3be8a1fcdef3fe1d359ecdb2">
+        sha1="8ff55266036d2afc60749f79206729383df58867">
         <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b2e60de748b5800b457ea2bd11ef0ee1a3406c7e\classes.dex" />
     </item>
     <item
@@ -347,7 +347,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="0f059b067f1871cd5176ea4371aa22eefe8adae9">
+        sha1="0757af94e9d7f902eb5cb7589a6839130cb877bc">
         <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_0cbb54bde792971769666dc078f87014baad2c07\classes.dex" />
     </item>
     <item

@@ -33,7 +33,6 @@ public class LoadViewSplashScreen extends AsyncTask<Void, Integer, Void>{
 	// veza sa servisom
 	private Publickeystoreendpoint service;
 
-	
 	public LoadViewSplashScreen(SplashScreen splashScreenActivity)
 	{
 		this.splashScreenActivity = splashScreenActivity;

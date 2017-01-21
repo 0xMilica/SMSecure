@@ -10,6 +10,12 @@
      android:defaultValue=""
      android:inputType="textPassword"
      android:title="Password" />
+  <EditTextPreference
+      android:key="old_password"
+      android:summary="Enter current password"
+      android:defaultValue=""
+      android:inputType="textPassword"
+      android:title="Old Password" />
  </PreferenceCategory>
  
  <PreferenceCategory 

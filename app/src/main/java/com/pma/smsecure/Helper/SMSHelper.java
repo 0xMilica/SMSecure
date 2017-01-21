@@ -7,6 +7,7 @@ import android.net.Uri;
 import android.provider.ContactsContract.PhoneLookup;
 import android.telephony.TelephonyManager;
 import android.util.Log;
+import java.util.List;
 
 import com.pma.smsecure.R;
 import com.pma.smsecure.Dao.Contact;
@@ -109,7 +110,10 @@ public class SMSHelper {
 	 * @return ContactName ili phoneNumber ako ne pronadje
 	 */
 	public static String getContactName(Context context, String phoneNumber) {
-		
+
+		if(phoneNumber == null || phoneNumber.isEmpty())
+			return "";
+
 		ContentResolver cr = context.getContentResolver();
 		Uri uri = Uri.withAppendedPath(PhoneLookup.CONTENT_FILTER_URI, Uri.encode(phoneNumber));
 		Cursor cursor = cr.query(uri, new String[] { PhoneLookup.DISPLAY_NAME }, null, null, null);

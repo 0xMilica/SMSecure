@@ -18,8 +18,6 @@ public class UtilProperties {
 	 */
 	private static final String TAG = "UtilProperties";
 	
-	private static AudioManager myAudioManager;
-	
 	
 	public static void changeToTheme(Activity activity)
 	{
@@ -81,35 +79,4 @@ public class UtilProperties {
 		
 	}
 
-	public static void changeSound(Activity activity)
-	{
-		SharedPreferences prefs = PreferenceManager
-				.getDefaultSharedPreferences(activity);
-		myAudioManager = (AudioManager)getSystemService(Context.AUDIO_SERVICE);  
-		
-		String listPrefs2 = prefs.getString("listOfTonesValues", "Default list prefs");
-		
-		if(!listPrefs2.isEmpty()){
-			
-			switch (listPrefs2)
-			{
-			case "Silent":
-				myAudioManager.setRingerMode(AudioManager.RINGER_MODE_SILENT);
-				break;		
-				
-			case "Silent with vibration":
-				myAudioManager.setRingerMode(AudioManager.RINGER_MODE_VIBRATE);
-				break;
-			case "Default tone":
-				myAudioManager.setRingerMode(AudioManager.RINGER_MODE_NORMAL);
-				break;			
-			}
-		}
-		Log.d(TAG, "Promena tipa alarma");
-	}
-
-	private static AudioManager getSystemService(String audioService) {
-		// TODO Auto-generated method stub
-		return null;
-	}
 }
