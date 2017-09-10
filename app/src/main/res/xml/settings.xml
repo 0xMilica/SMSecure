@@ -4,12 +4,10 @@
    android:summary="Username and password information"
    android:title="Password information" >
 
-  <EditTextPreference
+  <com.pma.smsecure.Properties.ChangePasswordPreference
      android:key="password"
      android:summary="Enter new password"
-     android:defaultValue=""
-     android:inputType="textPassword"
-     android:title="Password" />
+     android:title="Change password" />
  </PreferenceCategory>
  
  <PreferenceCategory 

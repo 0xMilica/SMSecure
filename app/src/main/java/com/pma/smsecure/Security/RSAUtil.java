@@ -70,7 +70,7 @@ public class RSAUtil {
 	 *  Decode the encoded data with RSA public key
 	 */
 	public static String decrypt(String data, Key key){
-		Log.d("Poruka ENC: ", data);
+		Log.d("Message ENC: ", data);
 		byte[] decodedBytes = null;
 		try {
 		
@@ -82,7 +82,7 @@ public class RSAUtil {
 			Log.e(TAG, "RSA decryption error");
 			Log.e(TAG, "Cause = " + e.getCause() + "/n message = " + e.getMessage());
 		}
-		Log.d("Broj bajtova u nizu = ", ""+decodedBytes.length);
+		Log.d("Number of bytes per array = ", ""+decodedBytes.length);
 		return new String(decodedBytes);
 		
 	}

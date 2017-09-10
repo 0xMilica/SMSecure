@@ -59,48 +59,42 @@ public class SMSService extends IntentService {
 		String phoneNumber = intent.getExtras().getString("sender");// preuzmi broj telefona 
 		String smsContent = intent.getExtras().getString("smsContent");// preuzmi sadrzaj poruke
 		
-		boolean isSecure = intent.getExtras().getBoolean("isSecure"); 
-		//DEBUG !!
-		// poruke se iz delova salju preko emulatora; simulacija za data message;
-		//isSecure = true;
-		//DEBUG !!
+		boolean isSecure = intent.getExtras().getBoolean("isSecure");
 		
 		Log.d("fix", isSecure +" : "+ smsContent);
 		String sender_name = SMSHelper.getContactName(this, phoneNumber); // za broj vrati iz imenika ime, ako ga nema vrati broj
 		
 		if(isSecure){
-			if(smsContent.substring(smsContent.length()-1).equals(" ")){// deo poruke
+			if(smsContent.substring(smsContent.length()-1).equals(" ")){// SMS particle
 				
-				smsContent = smsContent.substring(0, smsContent.length()-1);// ukloni poslednji karakter
+				smsContent = smsContent.substring(0, smsContent.length()-1);// remove the last char
 				
 				Cache active_cache = getCacheForPhoneNum(phoneNumber);
 				if(active_cache != null){
 					String sms_part = active_cache.getSms_parts();
 					sms_part+=smsContent;
 					active_cache.setSms_parts(sms_part);
-					Log.d(TAG,"update kesa");
+					Log.d(TAG,"cash update");
 					daoFactory.getNewDaoSession(this).getCacheDao().update(active_cache);
 						
 				}else{
 					active_cache = new Cache();
-					Log.d(TAG,"kreiran novi kes");
+					Log.d(TAG,"new cash created");
 					active_cache.setPhoneNumber(phoneNumber);
 					active_cache.setSms_parts(smsContent);
 					daoFactory.getNewDaoSession(this).getCacheDao().insert(active_cache);
-					
 				}
-				
 				return;
+			//last part of message, getting all parts together, cash deleting
+			}else{
 				
-			}else{// poslednji deo poruke, radi spajanje, brisi kes
-				
-				Log.d(TAG,"update kesa finall");
+				Log.d(TAG,"final cash update");
 				Cache active_cache = getCacheForPhoneNum(phoneNumber);
 				String all_parts = active_cache.getSms_parts();
 				all_parts+=smsContent;
 				daoFactory.getNewDaoSession(this).getCacheDao().delete(active_cache);
 				
-				// osvezi smsContent sa sadrzajem cele poruke
+				// setting smsContent to whole SMS content
 				smsContent=all_parts;
 			}
 		}

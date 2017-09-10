@@ -36,7 +36,6 @@ public class SMSReceiver2 extends BroadcastReceiver {
             // For every SMS message received (although multipart is not supported with binary)
             for (int i=0; i<msgs.length; i++) {
                 byte[] data = null;
- 
                 msgs[i] = SmsMessage.createFromPdu((byte[]) pdus[i]);
  
                 str += "Binary SMS from " + msgs[i].getOriginatingAddress() + " :";
@@ -47,9 +46,7 @@ public class SMSReceiver2 extends BroadcastReceiver {
                 // Return the User Data section minus the
                 // User Data Header (UDH) (if there is any UDH at all)
                 data = msgs[i].getUserData();
- 
-                // Generally you can do away with this for loop
-                // You'll just need the next for loop
+
                 for (int index=0; index < data.length; index++) {
                     str += Byte.toString(data[index]);
                 }

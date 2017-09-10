@@ -36,11 +36,6 @@ public class SMSReceiver extends BroadcastReceiver {
             for (int i=0; i<msgs.length; i++)
             {
                 msgs[i] = SmsMessage.createFromPdu((byte[])pdus[i]);
-                // In case of a particular App / Service.
-                //if(msgs[i].getOriginatingAddress().equals("+91XXX"))
-                //{
-                //str += "SMS from " + msgs[i].getOriginatingAddress();
-                //str += " :";
                 str += msgs[i].getMessageBody().toString();
                 str += "\n";
                 Log.d("sms servis","poruka od = " + msgs[i].getOriginatingAddress());
@@ -54,7 +49,7 @@ public class SMSReceiver extends BroadcastReceiver {
 			Log.d("sms servis","poruka = \n" + str);
 		}
         
-        // u intent ubaci broj telefona i id od poruke
+        //put in intent phone number and message id
 		Intent i = new Intent(context, SMSService.class);
 		i.putExtra("sender", phone_num);
 		i.putExtra("smsContent", str);

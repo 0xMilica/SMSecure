@@ -56,18 +56,17 @@ public class SyncService extends IntentService{
 		
 		if(isSyncAll){
 			try {
-				Log.d(TAG, "pocetak all sinhronizacije");
+				Log.d(TAG, "beginning all sync");
 				
 				User user = daoFactory.getNewDaoSession(this).getUserDao().load(1L);
 				String userNumber = user.getPhoneNumber();
 				
-				Log.d(TAG, "moj broj = " + userNumber);
+				Log.d(TAG, "number = " + userNumber);
 				PublicKeyStore pks = service.getPublicKeyStoreForPhoneNumber(userNumber).execute();
-				if(pks == null){// nas javni kljuc nije na web servisu
+				if(pks == null){// if the key is not on the web service
 					
-					Log.d(TAG, "nas jkljuc nije pronasao na web-u");
-					
-					Log.d(TAG,"Moj Javni Kljuc iz baze = "+user.getPublicKey());
+					Log.d(TAG, "public key not found online");
+					Log.d(TAG,"public key from db = "+user.getPublicKey());
 					// upload
 					PublicKeyStore publickey = new PublicKeyStore();
 					publickey.setPhoneNumber(userNumber);
@@ -75,11 +74,11 @@ public class SyncService extends IntentService{
 					service = builder.build();
 					response = service.insertPublicKeyStore(publickey).execute();
 					
-					Log.d(TAG, "nas javni kljuc upload-ovan");
+					Log.d(TAG, "public key uploaded");
 					
 				}
 				
-				// za svaki kontakt osvezi javni kljuc
+				// refresh publick key for every contact
 				ContactDao contactDao = daoFactory.getNewDaoSession(this).getContactDao();
 				List<Contact> contacts = contactDao.loadAll();
 				for(Contact contact : contacts){

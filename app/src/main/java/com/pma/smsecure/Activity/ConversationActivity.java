@@ -101,7 +101,7 @@ public class ConversationActivity extends Activity implements ICommunicator {
 
 		listViewAdapter = new ConversationListViewAdapter(this);
 
-		// popunjavanje main liste ...
+		// main list population ...
 		new AsyncTask<Void, Void, Void>() {
 
 			@Override
@@ -114,9 +114,9 @@ public class ConversationActivity extends Activity implements ICommunicator {
 
 				Intent i = getIntent();
 				String thread_id = i.getStringExtra("thread_id");
-				Log.d(TAG, "ID KONVERZACIJE = " + thread_id);
+				Log.d(TAG, "CONVERSATION ID = " + thread_id);
 				activeConversation = conversationDao.load(Long.parseLong(thread_id, 10));
-				// u ovu listu treba da ubacim rezultat smss = ;
+				//in this list the final sms will be added
 				User user = daoSession.getUserDao().load(1L);
 				smss = new ArrayList<SMS>();
 
@@ -126,17 +126,16 @@ public class ConversationActivity extends Activity implements ICommunicator {
 				smsDao = daoSession.getSMSDao();
 				for (SMS sms : activeConversation.getSmslist()) {
 
-					// dekriptuj samo one koje su neprocitane (ovo je zbog performansi) && !sms.getIsRead()
-					// i samo one koje su u inbox-u
-					// nakon dekripcije snimi je u bazu kao otvoren tekst 
+					// decrypt just the unread ones(regarding the performances) and those in inbox
+					// after the decryption, record it in the db
 					if (sms.getIsEncrypted() && sms.getFolder().equals("1") && !sms.getIsRead()) {
 						try {
-							String dekriptovanSadrzaj = RSAUtil.decrypt(sms.getMessage().replaceAll("\\s+", ""), pk);
-							sms.setMessage(dekriptovanSadrzaj);
+							String decryptedContent = RSAUtil.decrypt(sms.getMessage().replaceAll("\\s+", ""), pk);
+							sms.setMessage(decryptedContent);
 
 						} catch (Exception e) {
 
-							Log.e(TAG, "neuspela dekripcija poruke");
+							Log.e(TAG, "message decryption failed");
 
 						} finally {
 							smss.add(sms);
@@ -145,7 +144,7 @@ public class ConversationActivity extends Activity implements ICommunicator {
 					} else {
 						smss.add(sms);
 					}
-					// setuj da su sve procitane
+					// set all to read
 					sms.setIsRead(true);
 					smsDao.update(sms);
 				}

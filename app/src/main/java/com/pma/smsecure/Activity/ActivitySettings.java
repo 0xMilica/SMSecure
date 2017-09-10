@@ -39,21 +39,7 @@ public class ActivitySettings extends PreferenceActivity implements OnSharedPref
 		sPrefs.unregisterOnSharedPreferenceChangeListener(this);
 	}
 	
-	public void changePassword(String newPassword, String oldPassword){
-		
-		UserDao userDao = (UserDao)daoFactory.getDaoObject("UserDao", getBaseContext());
-		User user = userDao.load(1L);
-		try {
-			// TODO add salt ..
-			newPassword = SHA1.toSHA1(newPassword);
-		} catch (NoSuchAlgorithmException e) {
-			e.printStackTrace();
-		} catch (UnsupportedEncodingException e) {
-			e.printStackTrace();
-		}
-		user.setAppPassword(newPassword);
-		userDao.update(user);
-	}
+
 	
 	@Override
 	public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
@@ -63,17 +49,18 @@ public class ActivitySettings extends PreferenceActivity implements OnSharedPref
 			// Tema
 			case "listthemas":
 				break;
-			
+
+			// obsolite
 			case "password":
 				
-				String newPassword = sharedPreferences.getString(key, "");
-				String oldPassword = sharedPreferences.getString("old_"+key, "");
-				if(!newPassword.equals("") && !oldPassword.equals("")){
-					changePassword(newPassword, oldPassword);
-					SharedPreferences.Editor editor = sharedPreferences.edit();
-					editor.putString(key, "");
-					editor.commit();
-				}
+//				String newPassword = sharedPreferences.getString(key, "");
+//				String oldPassword = sharedPreferences.getString("old_"+key, "");
+//				if(!newPassword.equals("") && !oldPassword.equals("")){
+//					changePassword(newPassword, oldPassword);
+//					SharedPreferences.Editor editor = sharedPreferences.edit();
+//					editor.putString(key, "");//
+//					editor.commit();
+//				}
 				
 				break;
 				
