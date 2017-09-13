@@ -2,20 +2,30 @@
 <items version="2" >
 
     <item
+        is-multidex="true"
+        jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\libs\google-http-client-android-1.20.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="313dc99a7963523871495897ca11aa8472b3c6fd">
+        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\2\google-http-client-android-1.20.0_cca5ec44ee6e4deb0dae61262b65aba2f44419dc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_b2e60de748b5800b457ea2bd11ef0ee1a3406c7e\classes.dex" />
+    </item>
+    <item
         jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\libs\jackson-core-2.1.3.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
         sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
         <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\2\jackson-core-2.1.3_ca6d0d126b1b7d72e20dbfb35466bb79df8fdb3e\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-22.2.0_ba79bff28d1a4ce1a97bcec2b4c92ca8408bc3a4\classes.dex" />
     </item>
     <item
         jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\libs\google-oauth-client-1.20.0.jar"
@@ -27,20 +37,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jar="C:\Users\dell\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.1\2e66da15851f9f5b5079228f856c2f090ba98c38\gson-2.1.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-22.2.0_8878189324027a8309bcd17b4c5eb9d7c9daf79d\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\exploded-aar\com.android.support\design\22.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
-        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-22.2.0_870b507a2722bcfc3f582cfc074c9456d5cff7c9\classes.dex" />
+        revision="25.0.0"
+        sha1="2e66da15851f9f5b5079228f856c2f090ba98c38">
+        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.1_275e8813bbebab3cbcc5625575556c17a4c0347b\classes.dex" />
     </item>
     <item
         jar="C:\Users\dell\.gradle\caches\modules-2\files-2.1\com.google.protobuf\protobuf-java\2.4.1\c589509ec6fd86d5d2fda37e07c08538235d3b9\protobuf-java-2.4.1.jar"
@@ -52,12 +54,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\dell\.android\build-cache\7592ef40431fa855628a823941804c82bef2f07b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cbbba3f427ee2dee292b4d87239c6feac215ef07\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\libs\smsecure-publickeystoreendpoint-1-1.20.0-SNAPSHOT.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
         sha1="f5f50c52ca9fbb2adfa445f74b4cc24262200c7a">
         <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\2\smsecure-publickeystoreendpoint-1-1.20.0-SNAPSHOT_81cd8dafe78b2b69a2e85e728bcf9d06b6313653\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b6ed9dbc96fc5bfd667ef5f12de6b17434da210">
+        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_0cbb54bde792971769666dc078f87014baad2c07\classes.dex" />
     </item>
     <item
         jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\libs\greendao-1.3.7.jar"
@@ -78,12 +98,57 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
+        jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\libs\prettytime-4.0.1.Final.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
-        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.1.0_84427c48e7ea96e1545269b44dcaa726ce8d8c0f\classes.dex" />
+        revision="25.0.0"
+        sha1="5537d74e2102a82fd937dd9b8a652e3b26026a7a">
+        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\2\prettytime-4.0.1.Final_4ec67985a8f339617066ec18c9a83c89cadb5504\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\libs\google-api-client-android-1.20.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="05673179575c32b69a474334255c3044adf18d40">
+        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\2\google-api-client-android-1.20.0_1b4c83c98dbd254ccdefa08578034018ea87d5fc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\libs\google-http-client-1.20.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="93d82db2bca534960253f43424b2ba9d7638b4d2">
+        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\2\google-http-client-1.20.0_2c1434e4eb8107440ca732a5997c0bd7dcfb2964\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\libs\greendao-1.3.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dda08161d004c4df96938da6909f1c2b96cd33c8">
+        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\2\greendao-1.3.7_bf212b0ddd375759879cc4f672e5e1075dd0cc48\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dell\.android\build-cache\8640f25df20386bf38dde089360a4e6e8032b6d5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b6e988255a089ba814c00adda1119371d88ba007\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\libs\jackson-core-asl-1.9.11.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e32303ef8bd18a5c9272780d49b81c95e05ddf43">
+        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\2\jackson-core-asl-1.9.11_e38b8f0e360a5f87a3b5b0e01e5e2b5ff45522bf\classes.dex" />
     </item>
     <item
         jar="C:\Users\dell\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-gson\1.20.0\9204765f39000f6109c927ac66c7963bf9c7df19\google-http-client-gson-1.20.0.jar"
@@ -94,12 +159,22 @@
         <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-http-client-gson-1.20.0_f18bc2d93b8761b01532979d022bfde939f89eea\classes.dex" />
     </item>
     <item
-        jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        is-multidex="true"
+        jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\libs\smsecure-publickeystoreendpoint-1-1.20.0-SNAPSHOT.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="fcadd6b068b269f0d51362b469d2ed3a8ec1d9fe">
-        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b2e60de748b5800b457ea2bd11ef0ee1a3406c7e\classes.dex" />
+        revision="25.0.0"
+        sha1="f5f50c52ca9fbb2adfa445f74b4cc24262200c7a">
+        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\2\smsecure-publickeystoreendpoint-1-1.20.0-SNAPSHOT_81cd8dafe78b2b69a2e85e728bcf9d06b6313653\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dell\.android\build-cache\ddf334a61c20b266b5491c047c300c0ca55cfbe4\output\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.0_327a2f207a4c5552da5b60d49be7c384268a281e\classes.dex" />
     </item>
     <item
         jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\libs\google-http-client-android-1.20.0.jar"
@@ -127,21 +202,21 @@
         <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\2\jackson-core-asl-1.9.11_e38b8f0e360a5f87a3b5b0e01e5e2b5ff45522bf\classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.0_de6e1b0caad0c88ecee1743674a29bce5e4fe683\classes.dex" />
-    </item>
-    <item
         jar="D:\android_stuff\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
         sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
         <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-22.2.0_2b98a7d9976eb62e4f7f7ca06cafb3dbd8994002\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dell\.android\build-cache\3e067f34e118d030b86efa4dd770240484ed0751\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_06e529e68002040cc09c759232280f1a3b89ad5d\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -154,15 +229,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\exploded-aar\com.android.support\design\22.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
-        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-22.2.0_870b507a2722bcfc3f582cfc074c9456d5cff7c9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\dell\.gradle\caches\modules-2\files-2.1\com.google.protobuf\protobuf-java\2.4.1\c589509ec6fd86d5d2fda37e07c08538235d3b9\protobuf-java-2.4.1.jar"
         jumboMode="true"
         optimize="true"
@@ -207,20 +273,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jar="D:\android_stuff\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
-        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.1.0_53a6db1b5ca4dd73ffcf9d8aaa6304c4a84fe352\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="4fec8bb8839d4f39d027ca210f67df8c831a84dd">
-        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_0cbb54bde792971769666dc078f87014baad2c07\classes.dex" />
+        revision="25.0.0"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-22.2.0_2b98a7d9976eb62e4f7f7ca06cafb3dbd8994002\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -260,26 +318,54 @@
         jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\libs\jackson-core-2.1.3.jar"
         jumboMode="true"
         optimize="true"
+        revision="25.0.0"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\2\jackson-core-2.1.3_ca6d0d126b1b7d72e20dbfb35466bb79df8fdb3e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\libs\jsr305-1.3.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\2\jsr305-1.3.9_12fb587442102d9386182decbba14cd1d7053a95\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\libs\jackson-core-2.1.3.jar"
+        jumboMode="true"
+        optimize="true"
         revision="24.0.1"
         sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
         <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\2\jackson-core-2.1.3_ca6d0d126b1b7d72e20dbfb35466bb79df8fdb3e\classes.dex" />
     </item>
     <item
-        jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\dell\.android\build-cache\ddf334a61c20b266b5491c047c300c0ca55cfbe4\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
-        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.1.0_84427c48e7ea96e1545269b44dcaa726ce8d8c0f\classes.dex" />
+        revision="25.0.0"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5b4d6a4cf6451ee9c185318681e442161f892798\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jar="C:\Users\dell\.gradle\caches\modules-2\files-2.1\com.google.protobuf\protobuf-java\2.4.1\c589509ec6fd86d5d2fda37e07c08538235d3b9\protobuf-java-2.4.1.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-22.2.0_ba79bff28d1a4ce1a97bcec2b4c92ca8408bc3a4\classes.dex" />
+        revision="25.0.0"
+        sha1="0c589509ec6fd86d5d2fda37e07c08538235d3b9">
+        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\protobuf-java-2.4.1_daf0246dedca9ee975200b7c008ec324c80431de\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\libs\google-oauth-client-1.20.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1d086ac5756475ddf451af2e2df6e288d18608ca">
+        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\2\google-oauth-client-1.20.0_aa906acbaf61cc3c273bb3719a2ac1008a6aaab1\classes.dex" />
     </item>
     <item
         jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\libs\smsecure-publickeystoreendpoint-1-1.20.0-SNAPSHOT.jar"
@@ -291,12 +377,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\dell\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-gson\1.20.0\9204765f39000f6109c927ac66c7963bf9c7df19\google-http-client-gson-1.20.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="9477a48b39db96f09a1f567a3fb3c14786c47af9">
-        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b2e60de748b5800b457ea2bd11ef0ee1a3406c7e\classes.dex" />
+        revision="25.0.0"
+        sha1="9204765f39000f6109c927ac66c7963bf9c7df19">
+        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-http-client-gson-1.20.0_f18bc2d93b8761b01532979d022bfde939f89eea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\libs\google-api-client-1.20.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d3e66209ae9e749b2d6833761e7885f60f285564">
+        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\2\google-api-client-1.20.0_8058f0821951d88e3096935a75efb6722ae1f007\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -325,14 +420,6 @@
         <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-22.2.0_2b98a7d9976eb62e4f7f7ca06cafb3dbd8994002\classes.dex" />
     </item>
     <item
-        jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.0_de6e1b0caad0c88ecee1743674a29bce5e4fe683\classes.dex" />
-    </item>
-    <item
         is-multidex="true"
         jar="C:\Users\dell\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.1\2e66da15851f9f5b5079228f856c2f090ba98c38\gson-2.1.jar"
         jumboMode="true"
@@ -342,29 +429,21 @@
         <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.1_275e8813bbebab3cbcc5625575556c17a4c0347b\classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d96aef9b8a0e7f1d65e867bd89f191f5d464af6d">
-        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_0cbb54bde792971769666dc078f87014baad2c07\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
-        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.1.0_53a6db1b5ca4dd73ffcf9d8aaa6304c4a84fe352\classes.dex" />
-    </item>
-    <item
         jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\libs\google-api-client-1.20.0.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
         sha1="d3e66209ae9e749b2d6833761e7885f60f285564">
         <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\2\google-api-client-1.20.0_8058f0821951d88e3096935a75efb6722ae1f007\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\libs\greendao-generator-1.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2f757df97b422e40bf99f71094e5d105c98f32e7">
+        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\2\greendao-generator-1.3.1_e854e141e6a45b2e7fba89fbbea457e98801bc8a\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -394,12 +473,13 @@
         <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-http-client-gson-1.20.0_f18bc2d93b8761b01532979d022bfde939f89eea\classes.dex" />
     </item>
     <item
-        jar="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\dell\.android\build-cache\b3b67d84a8df91bd62313977b086d4e0f6beb815\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-22.2.0_8878189324027a8309bcd17b4c5eb9d7c9daf79d\classes.dex" />
+        revision="25.0.0"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_20fc893aa9b98dc02298579a5132fbf20d69d860\classes.dex" />
     </item>
 
 </items>

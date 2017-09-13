@@ -1,7 +1,7 @@
-#Thu Sep 07 07:48:40 CEST 2017
-base.0=C\:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_0cbb54bde792971769666dc078f87014baad2c07
+#Wed Sep 13 02:33:35 CEST 2017
+base.0=C\:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_b2e60de748b5800b457ea2bd11ef0ee1a3406c7e
 renamed.1=classes.dex
 renamed.0=classes2.dex
-file.1=C\:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_b2e60de748b5800b457ea2bd11ef0ee1a3406c7e\\classes.dex
-base.1=C\:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_b2e60de748b5800b457ea2bd11ef0ee1a3406c7e
-file.0=C\:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_0cbb54bde792971769666dc078f87014baad2c07\\classes.dex
+file.1=C\:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_0cbb54bde792971769666dc078f87014baad2c07\\classes.dex
+base.1=C\:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_0cbb54bde792971769666dc078f87014baad2c07
+file.0=C\:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_b2e60de748b5800b457ea2bd11ef0ee1a3406c7e\\classes.dex
