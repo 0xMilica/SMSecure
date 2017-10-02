@@ -26,7 +26,7 @@
         android:layout_alignStart="@+id/txtViewUserInfo"
         android:layout_below="@+id/txtViewUserInfo"
         android:layout_toLeftOf="@+id/textViewDateOfLastMessage"
-        android:text="@string/txtViewlastMessage"
+        android:text="neka poruka"
         android:textAppearance="?android:attr/textAppearanceSmall"
         />
 

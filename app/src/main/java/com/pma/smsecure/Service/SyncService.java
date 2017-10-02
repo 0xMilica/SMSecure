@@ -78,7 +78,7 @@ public class SyncService extends IntentService{
 					
 				}
 				
-				// refresh publick key for every contact
+				// refresh public key for every contact
 				ContactDao contactDao = daoFactory.getNewDaoSession(this).getContactDao();
 				List<Contact> contacts = contactDao.loadAll();
 				for(Contact contact : contacts){

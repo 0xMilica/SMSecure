@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#23a1ff"
+    android:background="#7d8c92"
     tools:context="com.pma.smsecure.Activity.SplashScreen"
     >
 
@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
         android:textColor="#ffffff"
         android:text="" />
 
@@ -28,11 +29,12 @@
         android:id="@+id/passwordEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
         android:ems="10"
         android:hint="password"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:layout_marginTop="100dp"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:id="@+id/btnLogin"
@@ -53,7 +55,7 @@
         android:layout_above="@+id/passwordEditText"
         android:layout_centerHorizontal="true"
         android:textColor="#FF3300"
-        android:layout_marginBottom="29dp"
+        android:layout_marginBottom="0dp"
         android:text=""
         android:textAppearance="?android:attr/textAppearanceLarge" />
     

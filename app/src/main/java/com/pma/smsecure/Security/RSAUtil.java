@@ -84,10 +84,10 @@ public class RSAUtil {
 		}
 		Log.d("Number of bytes per array = ", ""+decodedBytes.length);
 		return new String(decodedBytes);
-		
+
 	}
-	
-	
+
+
 	/**
 	 * Generate key pair for 1024-bit RSA
 	 * @return new KeyPair or null
@@ -108,7 +108,7 @@ public class RSAUtil {
 			Log.e(TAG, "RSA key pair error");
 			Log.e(TAG, e.getMessage());
 		}
-		
+
 		return kp;
 	}
 	
@@ -126,7 +126,7 @@ public class RSAUtil {
 			keyBytes = Base64.decode(publicK.getBytes("UTF-8"));
 			X509EncodedKeySpec spec = new X509EncodedKeySpec(keyBytes);
 			KeyFactory keyFactory = KeyFactory.getInstance("RSA");
-			
+
 			key = keyFactory.generatePublic(spec);
 			
 		} catch (UnsupportedEncodingException e) {
@@ -139,7 +139,7 @@ public class RSAUtil {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+
 		return key;
 	}
 	

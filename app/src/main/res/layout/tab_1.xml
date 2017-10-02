@@ -24,6 +24,7 @@
         android:layout_margin="16dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
+        android:background="#7d8c92"
         android:src="@drawable/ic_mode_edit_black_24dp"
 
 
