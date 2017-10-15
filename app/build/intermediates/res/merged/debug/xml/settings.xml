@@ -17,21 +17,14 @@
      android:entries="@array/listSync"
      android:entryValues="@array/listSyncValues"
      android:key="listsync"
-     android:defaultValue="Daily"
+     android:defaultValue="Every 6 hours"
      android:summary="Set frequency"
      android:title="Sync frequency" />
  </PreferenceCategory>
  
  <PreferenceCategory
    android:summary="Username and password information"
-   android:title="Settings" >
-  <ListPreference
-     android:entries="@array/listAlertTones"
-     android:defaultValue="Default tone"
-	 android:entryValues="@array/listOfTonesValues"
-	 android:key="listalerttones"
-     android:summary="Choose alert tone"
-     android:title="Alert tones" />
+   android:title="Set style" >
  
   <ListPreference
      android:entries="@array/listThemaOptions"

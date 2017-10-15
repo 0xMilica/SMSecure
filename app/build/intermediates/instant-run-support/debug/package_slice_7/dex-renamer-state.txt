@@ -1,4 +1,4 @@
-#Thu Sep 14 01:55:42 CEST 2017
+#Sat Oct 14 17:36:34 CEST 2017
 base.0=C\:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7
 renamed.0=classes.dex
 file.0=C\:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7\\classes.dex

@@ -1,32 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
-    api-level="22"
+    abi="armeabi-v7a,armeabi"
+    api-level="23"
     build-mode="COLD"
-    density="420dpi"
+    density="xhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1506917684656"
+    timestamp="1508110946194"
     token="-8925524244929862384"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="1276" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="97" />
     <task
         name="verifier"
-        duration="0" />
+        duration="13" />
+
+    <artifact
+        location="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\outputs\apk\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1506917068167"
+        timestamp="1508110171327"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
@@ -43,9 +56,6 @@
             location="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
@@ -60,21 +70,17 @@
         <artifact
             location="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
-        <artifact
-            location="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1506917534127"
+        timestamp="1508110946194"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
+            location="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\Users\dell\StudioProjects\SMSecureMaster\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
-    <build
-        build-mode="COLD"
-        timestamp="1506917684656"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

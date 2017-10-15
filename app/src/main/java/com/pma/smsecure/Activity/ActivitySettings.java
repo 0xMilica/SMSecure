@@ -67,10 +67,7 @@ public class ActivitySettings extends PreferenceActivity implements OnSharedPref
 			// Sinhonizacija javnih kljuceva
 			case "listsync":
 				break;
-				
-			// Zvono
-			case "listalerttones":
-				break;
+
 				
 			default:
 				Log.d(TAG, "Neregistrovana promena za podesavanje => " + key);

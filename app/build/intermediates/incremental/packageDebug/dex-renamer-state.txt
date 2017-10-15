@@ -1,4 +1,4 @@
-#Mon Oct 02 06:12:18 CEST 2017
+#Mon Oct 16 01:42:34 CEST 2017
 base.0=C\:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_b2e60de748b5800b457ea2bd11ef0ee1a3406c7e
 renamed.1=classes.dex
 renamed.0=classes2.dex

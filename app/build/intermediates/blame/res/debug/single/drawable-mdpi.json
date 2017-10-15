@@ -20,12 +20,12 @@
         "source": "C:\\Users\\dell\\.android\\build-cache\\7592ef40431fa855628a823941804c82bef2f07b\\output\\res\\drawable-mdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_text_cursor_mtrl_alpha.9.png",
-        "source": "C:\\Users\\dell\\.android\\build-cache\\7592ef40431fa855628a823941804c82bef2f07b\\output\\res\\drawable-mdpi\\abc_text_cursor_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_clear_mtrl_alpha.png",
         "source": "C:\\Users\\dell\\.android\\build-cache\\7592ef40431fa855628a823941804c82bef2f07b\\output\\res\\drawable-mdpi\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_text_cursor_mtrl_alpha.9.png",
+        "source": "C:\\Users\\dell\\.android\\build-cache\\7592ef40431fa855628a823941804c82bef2f07b\\output\\res\\drawable-mdpi\\abc_text_cursor_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\dell\\StudioProjects\\SMSecureMaster\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ab_share_pack_mtrl_alpha.9.png",

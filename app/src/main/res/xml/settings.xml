@@ -17,7 +17,7 @@
      android:entries="@array/listSync"
      android:entryValues="@array/listSyncValues"
      android:key="listsync"
-     android:defaultValue="Daily"
+     android:defaultValue="Every 6 hours"
      android:summary="Set frequency"
      android:title="Sync frequency" />
  </PreferenceCategory>
