@@ -102,11 +102,9 @@ public class LoadContactsTask extends AsyncTask<Void, Void, Void> {
     private List<Contact> getContactsPMAPublicKeyOnly(){
         ContactDao contactDao = (ContactDao) daoFactory.getDaoObject("ContactDao", context);
         List<Contact> ret = new ArrayList<Contact>();
-        for(Contact c : contactDao.loadAll()){
-            if(c.getPublicKey() != null)
-                if(c.getPublicKey().isEmpty())
-                    ret.add(c);
-
+        for (Contact c : contactDao.loadAll()){
+            if(c.getPublicKey() != null && !c.getPublicKey().isEmpty())
+                ret.add(c);
         }
         return ret;
     }

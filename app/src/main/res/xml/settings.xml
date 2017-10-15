@@ -24,14 +24,7 @@
  
  <PreferenceCategory
    android:summary="Username and password information"
-   android:title="Settings" >
-  <ListPreference
-     android:entries="@array/listAlertTones"
-     android:defaultValue="Default tone"
-	 android:entryValues="@array/listOfTonesValues"
-	 android:key="listalerttones"
-     android:summary="Choose alert tone"
-     android:title="Alert tones" />
+   android:title="Set style" >
  
   <ListPreference
      android:entries="@array/listThemaOptions"
